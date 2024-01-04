@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+namespace Hermit.Login {
 
-public class LoginBusinessContext : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public class LoginBusinessContext {
+
+        public UIAppContext uiAppContext;
+        public LoginEventCenter evt;
+
+        public LoginBusinessContext() {
+            evt = new LoginEventCenter();
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

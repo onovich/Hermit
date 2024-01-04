@@ -2,17 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoginBusiness : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+namespace Hermit.Login {
+
+    public static class LoginBusiness {
+
+        public static void Enter(LoginBusinessContext ctx) {
+            UIApp.Login_Open(ctx.uiAppContext);
+        }
+
+        public static void Tick(LoginBusinessContext ctx, float dt) {
+        }
+
+        public static void Exit(LoginBusinessContext ctx) {
+            UIApp.Login_TryClose(ctx.uiAppContext);
+        }
+
+        public static void ExitApplication(LoginBusinessContext ctx) {
+            Exit(ctx);
+            Application.Quit();
+            HLog.Log("Application.Quit()");
+        }
+
+        public static void OnLoginFinish(LoginBusinessContext ctx) {
+            ctx.evt.Login_OnLoginFinish();
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -1,18 +1,42 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
-public class AssetsInfraContext : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+namespace Hermit {
+
+    public class AssetsInfraContext {
+
+        public AsyncOperationHandle entityHandle;
+        Dictionary<string, GameObject> entityAssets;
+
+        public AssetsInfraContext() {
+            entityAssets = new Dictionary<string, GameObject>();
+        }
+
+        public void Entity_Add(string key, GameObject asset) {
+            entityAssets.Add(key, asset);
+        }
+
+        GameObject Entity_Get(string key) {
+            var has = entityAssets.TryGetValue(key, out var asset);
+            if (!has) {
+                HLog.LogError($"Entity_Get: {key} not found");
+            }
+            return asset;
+        }
+
+        public GameObject Entity_GetRole() {
+            return Entity_Get("Role");
+        }
+
+        public GameObject Entity_GetVehicle() {
+            return Entity_Get("Vehicle");
+        }
+
+        public GameObject Entity_GetBullet() {
+            return Entity_Get("Bullet");
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

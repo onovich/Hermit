@@ -1,18 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Tilemaps;
+using UnityEngine.AddressableAssets;
 
-public class AssetsInfra : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+namespace Hermit {
+
+    public class AssetsInfra {
+
+        public static async Task LoadAssets(AssetsInfraContext ctx) {
+            {
+                var handle = Addressables.LoadAssetsAsync<GameObject>("Entity", null);
+                var list = await handle.Task;
+                foreach (var asset in list) {
+                    ctx.Entity_Add(asset.name, asset);
+                }
+                ctx.entityHandle = handle;
+            }
+
+        }
+
+        public static void ReleaseAssets(AssetsInfraContext ctx) {
+            if (ctx.entityHandle.IsValid()) {
+                Addressables.Release(ctx.entityHandle);
+            }
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
