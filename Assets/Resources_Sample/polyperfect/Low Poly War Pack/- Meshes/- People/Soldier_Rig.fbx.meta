@@ -1,0 +1,4502 @@
+fileFormatVersion: 2
+guid: fbe28cea07a75e54abfe1f5baac8789a
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Ankle_L
+  - first:
+      1: 100002
+    second: Ankle_R
+  - first:
+      1: 100004
+    second: BottomLip_M
+  - first:
+      1: 100006
+    second: brengun-ammo
+  - first:
+      1: 100008
+    second: brengun-base
+  - first:
+      1: 100010
+    second: brengun-stand
+  - first:
+      1: 100012
+    second: Brengun_Rig
+  - first:
+      1: 100014
+    second: Cheek_L
+  - first:
+      1: 100016
+    second: Cheek_R
+  - first:
+      1: 100018
+    second: Chest_M
+  - first:
+      1: 100020
+    second: DeformationSystem
+  - first:
+      1: 100022
+    second: DeformationSystem 1
+  - first:
+      1: 100024
+    second: DeformationSystem 2
+  - first:
+      1: 100026
+    second: DeformationSystem 3
+  - first:
+      1: 100028
+    second: DeformationSystem 4
+  - first:
+      1: 100030
+    second: DeformationSystem 5
+  - first:
+      1: 100032
+    second: DeformationSystem 6
+  - first:
+      1: 100034
+    second: DeformationSystem 7
+  - first:
+      1: 100036
+    second: Elbow_L
+  - first:
+      1: 100038
+    second: Elbow_R
+  - first:
+      1: 100040
+    second: Eye_L
+  - first:
+      1: 100042
+    second: Eye_R
+  - first:
+      1: 100044
+    second: EyebrowCenter_M
+  - first:
+      1: 100046
+    second: EyebrowInner_L
+  - first:
+      1: 100048
+    second: EyebrowInner_R
+  - first:
+      1: 100050
+    second: EyebrowMid_L
+  - first:
+      1: 100052
+    second: EyebrowMid_R
+  - first:
+      1: 100054
+    second: EyebrowOuter_L
+  - first:
+      1: 100056
+    second: EyebrowOuter_R
+  - first:
+      1: 100058
+    second: EyeEnd_L
+  - first:
+      1: 100060
+    second: EyeEnd_R
+  - first:
+      1: 100062
+    second: FKAimEye_L
+  - first:
+      1: 100064
+    second: FKAimEye_R
+  - first:
+      1: 100066
+    second: FKAnkle_L
+  - first:
+      1: 100068
+    second: FKAnkle_R
+  - first:
+      1: 100070
+    second: FKChest_M
+  - first:
+      1: 100072
+    second: FKElbow_L
+  - first:
+      1: 100074
+    second: FKElbow_R
+  - first:
+      1: 100076
+    second: FKExtraAnkle_L
+  - first:
+      1: 100078
+    second: FKExtraAnkle_R
+  - first:
+      1: 100080
+    second: FKExtraChest_M
+  - first:
+      1: 100082
+    second: FKExtraElbow_L
+  - first:
+      1: 100084
+    second: FKExtraElbow_R
+  - first:
+      1: 100086
+    second: FKExtraEye_L
+  - first:
+      1: 100088
+    second: FKExtraEye_R
+  - first:
+      1: 100090
+    second: FKExtraHead_M
+  - first:
+      1: 100092
+    second: FKExtraHip_L
+  - first:
+      1: 100094
+    second: FKExtraHip_R
+  - first:
+      1: 100096
+    second: FKExtraIndexFinger1_L
+  - first:
+      1: 100098
+    second: FKExtraIndexFinger1_R
+  - first:
+      1: 100100
+    second: FKExtraIndexFinger2_L
+  - first:
+      1: 100102
+    second: FKExtraIndexFinger2_R
+  - first:
+      1: 100104
+    second: FKExtraJaw_M
+  - first:
+      1: 100106
+    second: FKExtraKnee_L
+  - first:
+      1: 100108
+    second: FKExtraKnee_R
+  - first:
+      1: 100110
+    second: FKExtraMiddleFinger1_L
+  - first:
+      1: 100112
+    second: FKExtraMiddleFinger1_R
+  - first:
+      1: 100114
+    second: FKExtraMiddleFinger2_L
+  - first:
+      1: 100116
+    second: FKExtraMiddleFinger2_R
+  - first:
+      1: 100118
+    second: FKExtraNeck_M
+  - first:
+      1: 100120
+    second: FKExtraPinkyFinger1_L
+  - first:
+      1: 100122
+    second: FKExtraPinkyFinger1_R
+  - first:
+      1: 100124
+    second: FKExtraPinkyFinger2_L
+  - first:
+      1: 100126
+    second: FKExtraPinkyFinger2_R
+  - first:
+      1: 100128
+    second: FKExtraRingFinger1_L
+  - first:
+      1: 100130
+    second: FKExtraRingFinger1_R
+  - first:
+      1: 100132
+    second: FKExtraRingFinger2_L
+  - first:
+      1: 100134
+    second: FKExtraRingFinger2_R
+  - first:
+      1: 100136
+    second: FKExtraRoot_M
+  - first:
+      1: 100138
+    second: FKExtraScapula_L
+  - first:
+      1: 100140
+    second: FKExtraScapula_R
+  - first:
+      1: 100142
+    second: FKExtraShoulder_L
+  - first:
+      1: 100144
+    second: FKExtraShoulder_R
+  - first:
+      1: 100146
+    second: FKExtraSpine1_M
+  - first:
+      1: 100148
+    second: FKExtraThumbFinger1_L
+  - first:
+      1: 100150
+    second: FKExtraThumbFinger1_R
+  - first:
+      1: 100152
+    second: FKExtraThumbFinger2_L
+  - first:
+      1: 100154
+    second: FKExtraThumbFinger2_R
+  - first:
+      1: 100156
+    second: FKExtraToes_L
+  - first:
+      1: 100158
+    second: FKExtraToes_R
+  - first:
+      1: 100160
+    second: FKExtraWrist_L
+  - first:
+      1: 100162
+    second: FKExtraWrist_R
+  - first:
+      1: 100164
+    second: FKEye_L
+  - first:
+      1: 100166
+    second: FKEye_R
+  - first:
+      1: 100168
+    second: FKGlobalHead_M
+  - first:
+      1: 100170
+    second: FKGlobalStaticHead_M
+  - first:
+      1: 100172
+    second: FKHead_M
+  - first:
+      1: 100174
+    second: FKHip_L
+  - first:
+      1: 100176
+    second: FKHip_R
+  - first:
+      1: 100178
+    second: FKIKArm_L
+  - first:
+      1: 100180
+    second: FKIKArm_R
+  - first:
+      1: 100182
+    second: FKIKLeg_L
+  - first:
+      1: 100184
+    second: FKIKLeg_R
+  - first:
+      1: 100186
+    second: FKIKParentConstraintArm_L
+  - first:
+      1: 100188
+    second: FKIKParentConstraintArm_R
+  - first:
+      1: 100190
+    second: FKIKParentConstraintLeg_L
+  - first:
+      1: 100192
+    second: FKIKParentConstraintLeg_R
+  - first:
+      1: 100194
+    second: FKIKParentConstraintSpine_M
+  - first:
+      1: 100196
+    second: FKIKSpine_M
+  - first:
+      1: 100198
+    second: FKIKSystem
+  - first:
+      1: 100200
+    second: FKIndexFinger1_L
+  - first:
+      1: 100202
+    second: FKIndexFinger1_R
+  - first:
+      1: 100204
+    second: FKIndexFinger2_L
+  - first:
+      1: 100206
+    second: FKIndexFinger2_R
+  - first:
+      1: 100208
+    second: FKJaw_M
+  - first:
+      1: 100210
+    second: FKKnee_L
+  - first:
+      1: 100212
+    second: FKKnee_R
+  - first:
+      1: 100214
+    second: FKMiddleFinger1_L
+  - first:
+      1: 100216
+    second: FKMiddleFinger1_R
+  - first:
+      1: 100218
+    second: FKMiddleFinger2_L
+  - first:
+      1: 100220
+    second: FKMiddleFinger2_R
+  - first:
+      1: 100222
+    second: FKNeck_M
+  - first:
+      1: 100224
+    second: FKOffsetAnkle_L
+  - first:
+      1: 100226
+    second: FKOffsetAnkle_R
+  - first:
+      1: 100228
+    second: FKOffsetChest_M
+  - first:
+      1: 100230
+    second: FKOffsetElbow_L
+  - first:
+      1: 100232
+    second: FKOffsetElbow_R
+  - first:
+      1: 100234
+    second: FKOffsetEye_L
+  - first:
+      1: 100236
+    second: FKOffsetEye_R
+  - first:
+      1: 100238
+    second: FKOffsetHead_M
+  - first:
+      1: 100240
+    second: FKOffsetHip_L
+  - first:
+      1: 100242
+    second: FKOffsetHip_R
+  - first:
+      1: 100244
+    second: FKOffsetIndexFinger1_L
+  - first:
+      1: 100246
+    second: FKOffsetIndexFinger1_R
+  - first:
+      1: 100248
+    second: FKOffsetIndexFinger2_L
+  - first:
+      1: 100250
+    second: FKOffsetIndexFinger2_R
+  - first:
+      1: 100252
+    second: FKOffsetJaw_M
+  - first:
+      1: 100254
+    second: FKOffsetKnee_L
+  - first:
+      1: 100256
+    second: FKOffsetKnee_R
+  - first:
+      1: 100258
+    second: FKOffsetMiddleFinger1_L
+  - first:
+      1: 100260
+    second: FKOffsetMiddleFinger1_R
+  - first:
+      1: 100262
+    second: FKOffsetMiddleFinger2_L
+  - first:
+      1: 100264
+    second: FKOffsetMiddleFinger2_R
+  - first:
+      1: 100266
+    second: FKOffsetNeck_M
+  - first:
+      1: 100268
+    second: FKOffsetPinkyFinger1_L
+  - first:
+      1: 100270
+    second: FKOffsetPinkyFinger1_R
+  - first:
+      1: 100272
+    second: FKOffsetPinkyFinger2_L
+  - first:
+      1: 100274
+    second: FKOffsetPinkyFinger2_R
+  - first:
+      1: 100276
+    second: FKOffsetRingFinger1_L
+  - first:
+      1: 100278
+    second: FKOffsetRingFinger1_R
+  - first:
+      1: 100280
+    second: FKOffsetRingFinger2_L
+  - first:
+      1: 100282
+    second: FKOffsetRingFinger2_R
+  - first:
+      1: 100284
+    second: FKOffsetRoot_M
+  - first:
+      1: 100286
+    second: FKOffsetScapula_L
+  - first:
+      1: 100288
+    second: FKOffsetScapula_R
+  - first:
+      1: 100290
+    second: FKOffsetShoulder_L
+  - first:
+      1: 100292
+    second: FKOffsetShoulder_R
+  - first:
+      1: 100294
+    second: FKOffsetSpine1_M
+  - first:
+      1: 100296
+    second: FKOffsetThumbFinger1_L
+  - first:
+      1: 100298
+    second: FKOffsetThumbFinger1_R
+  - first:
+      1: 100300
+    second: FKOffsetThumbFinger2_L
+  - first:
+      1: 100302
+    second: FKOffsetThumbFinger2_R
+  - first:
+      1: 100304
+    second: FKOffsetToes_L
+  - first:
+      1: 100306
+    second: FKOffsetToes_R
+  - first:
+      1: 100308
+    second: FKOffsetWrist_L
+  - first:
+      1: 100310
+    second: FKOffsetWrist_R
+  - first:
+      1: 100312
+    second: FKParentConstraintToChest_M
+  - first:
+      1: 100314
+    second: FKParentConstraintToRoot_M
+  - first:
+      1: 100316
+    second: FKParentConstraintToScapula_L
+  - first:
+      1: 100318
+    second: FKParentConstraintToScapula_R
+  - first:
+      1: 100320
+    second: FKParentConstraintToWrist_L
+  - first:
+      1: 100322
+    second: FKParentConstraintToWrist_R
+  - first:
+      1: 100324
+    second: FKPinkyFinger1_L
+  - first:
+      1: 100326
+    second: FKPinkyFinger1_R
+  - first:
+      1: 100328
+    second: FKPinkyFinger2_L
+  - first:
+      1: 100330
+    second: FKPinkyFinger2_R
+  - first:
+      1: 100332
+    second: FKRingFinger1_L
+  - first:
+      1: 100334
+    second: FKRingFinger1_R
+  - first:
+      1: 100336
+    second: FKRingFinger2_L
+  - first:
+      1: 100338
+    second: FKRingFinger2_R
+  - first:
+      1: 100340
+    second: FKRoot_M
+  - first:
+      1: 100342
+    second: FKScapula_L
+  - first:
+      1: 100344
+    second: FKScapula_R
+  - first:
+      1: 100346
+    second: FKShoulder_L
+  - first:
+      1: 100348
+    second: FKShoulder_R
+  - first:
+      1: 100350
+    second: FKSpine1_M
+  - first:
+      1: 100352
+    second: FKSystem
+  - first:
+      1: 100354
+    second: FKThumbFinger1_L
+  - first:
+      1: 100356
+    second: FKThumbFinger1_R
+  - first:
+      1: 100358
+    second: FKThumbFinger2_L
+  - first:
+      1: 100360
+    second: FKThumbFinger2_R
+  - first:
+      1: 100362
+    second: FKToes_L
+  - first:
+      1: 100364
+    second: FKToes_R
+  - first:
+      1: 100366
+    second: FKWrist_L
+  - first:
+      1: 100368
+    second: FKWrist_R
+  - first:
+      1: 100370
+    second: FKXAnkle_L
+  - first:
+      1: 100372
+    second: FKXAnkle_R
+  - first:
+      1: 100374
+    second: FKXChest_M
+  - first:
+      1: 100376
+    second: FKXElbow_L
+  - first:
+      1: 100378
+    second: FKXElbow_R
+  - first:
+      1: 100380
+    second: FKXEye_L
+  - first:
+      1: 100382
+    second: FKXEye_R
+  - first:
+      1: 100384
+    second: FKXHead_M
+  - first:
+      1: 100386
+    second: FKXHip_L
+  - first:
+      1: 100388
+    second: FKXHip_R
+  - first:
+      1: 100390
+    second: FKXIndexFinger1_L
+  - first:
+      1: 100392
+    second: FKXIndexFinger1_R
+  - first:
+      1: 100394
+    second: FKXIndexFinger2_L
+  - first:
+      1: 100396
+    second: FKXIndexFinger2_R
+  - first:
+      1: 100398
+    second: FKXJaw_M
+  - first:
+      1: 100400
+    second: FKXKnee_L
+  - first:
+      1: 100402
+    second: FKXKnee_R
+  - first:
+      1: 100404
+    second: FKXMiddleFinger1_L
+  - first:
+      1: 100406
+    second: FKXMiddleFinger1_R
+  - first:
+      1: 100408
+    second: FKXMiddleFinger2_L
+  - first:
+      1: 100410
+    second: FKXMiddleFinger2_R
+  - first:
+      1: 100412
+    second: FKXNeck_M
+  - first:
+      1: 100414
+    second: FKXPinkyFinger1_L
+  - first:
+      1: 100416
+    second: FKXPinkyFinger1_R
+  - first:
+      1: 100418
+    second: FKXPinkyFinger2_L
+  - first:
+      1: 100420
+    second: FKXPinkyFinger2_R
+  - first:
+      1: 100422
+    second: FKXRingFinger1_L
+  - first:
+      1: 100424
+    second: FKXRingFinger1_R
+  - first:
+      1: 100426
+    second: FKXRingFinger2_L
+  - first:
+      1: 100428
+    second: FKXRingFinger2_R
+  - first:
+      1: 100430
+    second: FKXRoot_M
+  - first:
+      1: 100432
+    second: FKXScapula_L
+  - first:
+      1: 100434
+    second: FKXScapula_R
+  - first:
+      1: 100436
+    second: FKXShoulder_L
+  - first:
+      1: 100438
+    second: FKXShoulder_R
+  - first:
+      1: 100440
+    second: FKXSpine1_M
+  - first:
+      1: 100442
+    second: FKXThumbFinger1_L
+  - first:
+      1: 100444
+    second: FKXThumbFinger1_R
+  - first:
+      1: 100446
+    second: FKXThumbFinger2_L
+  - first:
+      1: 100448
+    second: FKXThumbFinger2_R
+  - first:
+      1: 100450
+    second: FKXToes_L
+  - first:
+      1: 100452
+    second: FKXToes_R
+  - first:
+      1: 100454
+    second: FKXWrist_L
+  - first:
+      1: 100456
+    second: FKXWrist_R
+  - first:
+      1: 100458
+    second: Geo
+  - first:
+      1: 100460
+    second: Geo 1
+  - first:
+      1: 100462
+    second: Geo 2
+  - first:
+      1: 100464
+    second: Geo 3
+  - first:
+      1: 100466
+    second: Geo 4
+  - first:
+      1: 100468
+    second: Geo 5
+  - first:
+      1: 100470
+    second: Geo 6
+  - first:
+      1: 100472
+    second: Geometry
+  - first:
+      1: 100474
+    second: Gun
+  - first:
+      1: 100476
+    second: Gun 1
+  - first:
+      1: 100478
+    second: Gun_Rigs
+  - first:
+      1: 100480
+    second: Head_M
+  - first:
+      1: 100482
+    second: HeadEnd_M
+  - first:
+      1: 100484
+    second: Hip_L
+  - first:
+      1: 100486
+    second: Hip_R
+  - first:
+      1: 100488
+    second: HipSwingerStabilizer
+  - first:
+      1: 100490
+    second: HipSwingReverse
+  - first:
+      1: 100492
+    second: HipSwingReverseRoot
+  - first:
+      1: 100494
+    second: IKAcChest_M
+  - first:
+      1: 100496
+    second: IKAcPociXformChest_M
+  - first:
+      1: 100498
+    second: IKAcPociXformSpine1_M
+  - first:
+      1: 100500
+    second: IKAcRoot_M
+  - first:
+      1: 100502
+    second: IKAcRootFollowOffset_M
+  - first:
+      1: 100504
+    second: IKAcSpine1_M
+  - first:
+      1: 100506
+    second: IKAcSpine1FollowOffset_M
+  - first:
+      1: 100508
+    second: IKAcSpineOffset2_M
+  - first:
+      1: 100510
+    second: IKAcSpineOffset3_M
+  - first:
+      1: 100512
+    second: IKAcSpineOffset_M
+  - first:
+      1: 100514
+    second: IKArm_L
+  - first:
+      1: 100516
+    second: IKArm_L_PH
+  - first:
+      1: 100518
+    second: IKArm_L_SN
+  - first:
+      1: 100520
+    second: IKArm_R
+  - first:
+      1: 100522
+    second: IKArm_R_PH
+  - first:
+      1: 100524
+    second: IKArm_R_SN
+  - first:
+      1: 100526
+    second: IKCurve
+  - first:
+      1: 100528
+    second: IKcvSpine1_M
+  - first:
+      1: 100530
+    second: IKdistanceArm_L
+  - first:
+      1: 100532
+    second: IKdistanceArm_R
+  - first:
+      1: 100534
+    second: IKdistanceLeg_L
+  - first:
+      1: 100536
+    second: IKdistanceLeg_R
+  - first:
+      1: 100538
+    second: IKExtraArm_L
+  - first:
+      1: 100540
+    second: IKExtraArm_R
+  - first:
+      1: 100542
+    second: IKExtracvSpine1_M
+  - first:
+      1: 100544
+    second: IKExtraLeg_L
+  - first:
+      1: 100546
+    second: IKExtraLeg_R
+  - first:
+      1: 100548
+    second: IKExtraSpine1_M
+  - first:
+      1: 100550
+    second: IKExtraSpine2_M
+  - first:
+      1: 100552
+    second: IKExtraSpine3_M
+  - first:
+      1: 100554
+    second: IKfake0Spine_M
+  - first:
+      1: 100556
+    second: IKFixedOrientRoot_M
+  - first:
+      1: 100558
+    second: IKFKAlignedArm_L
+  - first:
+      1: 100560
+    second: IKFKAlignedArm_R
+  - first:
+      1: 100562
+    second: IKFKAlignedLeg_L
+  - first:
+      1: 100564
+    second: IKFKAlignedLeg_R
+  - first:
+      1: 100566
+    second: IKFKAlignedOffsetArm_L
+  - first:
+      1: 100568
+    second: IKFKAlignedOffsetArm_R
+  - first:
+      1: 100570
+    second: IKFKAlignedOffsetLeg_L
+  - first:
+      1: 100572
+    second: IKFKAlignedOffsetLeg_R
+  - first:
+      1: 100574
+    second: IKHandle
+  - first:
+      1: 100576
+    second: IKhybridExtraSpine1_M
+  - first:
+      1: 100578
+    second: IKhybridExtraSpine2_M
+  - first:
+      1: 100580
+    second: IKhybridExtraSpine3_M
+  - first:
+      1: 100582
+    second: IKhybridFollowSpine1_M
+  - first:
+      1: 100584
+    second: IKhybridOffsetSpine1_M
+  - first:
+      1: 100586
+    second: IKhybridOffsetSpine2_M
+  - first:
+      1: 100588
+    second: IKhybridOffsetSpine3_M
+  - first:
+      1: 100590
+    second: IKhybridSpine1_M
+  - first:
+      1: 100592
+    second: IKhybridSpine2_M
+  - first:
+      1: 100594
+    second: IKhybridSpine3_M
+  - first:
+      1: 100596
+    second: IKJoints
+  - first:
+      1: 100598
+    second: IKLeg_L
+  - first:
+      1: 100600
+    second: IKLeg_R
+  - first:
+      1: 100602
+    second: IKMessure
+  - first:
+      1: 100604
+    second: IKmessureConstrainToArm_L
+  - first:
+      1: 100606
+    second: IKmessureConstrainToArm_R
+  - first:
+      1: 100608
+    second: IKmessureConstrainToLeg_L
+  - first:
+      1: 100610
+    second: IKmessureConstrainToLeg_R
+  - first:
+      1: 100612
+    second: IKMessureFromHip_L
+  - first:
+      1: 100614
+    second: IKMessureFromHip_R
+  - first:
+      1: 100616
+    second: IKMessureFromShoulder_L
+  - first:
+      1: 100618
+    second: IKMessureFromShoulder_R
+  - first:
+      1: 100620
+    second: IKmessureLoc1Arm_L
+  - first:
+      1: 100622
+    second: IKmessureLoc1Arm_R
+  - first:
+      1: 100624
+    second: IKmessureLoc1Leg_L
+  - first:
+      1: 100626
+    second: IKmessureLoc1Leg_R
+  - first:
+      1: 100628
+    second: IKmessureLoc2Arm_L
+  - first:
+      1: 100630
+    second: IKmessureLoc2Arm_R
+  - first:
+      1: 100632
+    second: IKmessureLoc2Leg_L
+  - first:
+      1: 100634
+    second: IKmessureLoc2Leg_R
+  - first:
+      1: 100636
+    second: IKOffsetArm_L
+  - first:
+      1: 100638
+    second: IKOffsetArm_R
+  - first:
+      1: 100640
+    second: IKOffsetConstrainedSpine1_M
+  - first:
+      1: 100642
+    second: IKOffsetcvSpine1_M
+  - first:
+      1: 100644
+    second: IKOffsetLeg_L
+  - first:
+      1: 100646
+    second: IKOffsetLeg_R
+  - first:
+      1: 100648
+    second: IKOffsetSpine1_M
+  - first:
+      1: 100650
+    second: IKOffsetSpine2_M
+  - first:
+      1: 100652
+    second: IKOffsetSpine3_M
+  - first:
+      1: 100654
+    second: IKParentConstraintHip_L
+  - first:
+      1: 100656
+    second: IKParentConstraintHip_R
+  - first:
+      1: 100658
+    second: IKParentConstraintRoot_M
+  - first:
+      1: 100660
+    second: IKParentConstraintShoulder_L
+  - first:
+      1: 100662
+    second: IKParentConstraintShoulder_R
+  - first:
+      1: 100664
+    second: IKScalerChest_M
+  - first:
+      1: 100666
+    second: IKScalerRoot_M
+  - first:
+      1: 100668
+    second: IKScalerSpine1_M
+  - first:
+      1: 100670
+    second: IKSpChest_M
+  - first:
+      1: 100672
+    second: IKSpChestFollowOffset_M
+  - first:
+      1: 100674
+    second: IKSpine1_M
+  - first:
+      1: 100676
+    second: IKSpine1LocalOrient1_M
+  - first:
+      1: 100678
+    second: IKSpine1LocalOrient2_M
+  - first:
+      1: 100680
+    second: IKSpine2_M
+  - first:
+      1: 100682
+    second: IKSpine2LocalOrient1_M
+  - first:
+      1: 100684
+    second: IKSpine2LocalOrient2_M
+  - first:
+      1: 100686
+    second: IKSpine3_M
+  - first:
+      1: 100688
+    second: IKSpine3LocalOrient1_M
+  - first:
+      1: 100690
+    second: IKSpine3LocalOrient2_M
+  - first:
+      1: 100692
+    second: IKSpineCurve_M
+  - first:
+      1: 100694
+    second: IKSpineLocator0_M
+  - first:
+      1: 100696
+    second: IKSpineLocator1_M
+  - first:
+      1: 100698
+    second: IKSpineLocator2_M
+  - first:
+      1: 100700
+    second: IKSpRootFollowOffset_M
+  - first:
+      1: 100702
+    second: IKSpSpine1_M
+  - first:
+      1: 100704
+    second: IKSpSpine1FollowOffset_M
+  - first:
+      1: 100706
+    second: IKSpSpineOffset_M
+  - first:
+      1: 100708
+    second: IKSystem
+  - first:
+      1: 100710
+    second: IKXAnkle_L
+  - first:
+      1: 100712
+    second: IKXAnkle_R
+  - first:
+      1: 100714
+    second: IKXChest_M
+  - first:
+      1: 100716
+    second: IKXElbow_L
+  - first:
+      1: 100718
+    second: IKXElbow_R
+  - first:
+      1: 100720
+    second: IKXHip_L
+  - first:
+      1: 100722
+    second: IKXHip_R
+  - first:
+      1: 100724
+    second: IKXKnee_L
+  - first:
+      1: 100726
+    second: IKXKnee_R
+  - first:
+      1: 100728
+    second: IKXOffsetHip_L
+  - first:
+      1: 100730
+    second: IKXOffsetHip_R
+  - first:
+      1: 100732
+    second: IKXOffsetRoot_M
+  - first:
+      1: 100734
+    second: IKXOffsetShoulder_L
+  - first:
+      1: 100736
+    second: IKXOffsetShoulder_R
+  - first:
+      1: 100738
+    second: IKXRoot_M
+  - first:
+      1: 100740
+    second: IKXShoulder_L
+  - first:
+      1: 100742
+    second: IKXShoulder_R
+  - first:
+      1: 100744
+    second: IKXSpine1_M
+  - first:
+      1: 100746
+    second: IKXToes_L
+  - first:
+      1: 100748
+    second: IKXToes_R
+  - first:
+      1: 100750
+    second: IKXWrist_L
+  - first:
+      1: 100752
+    second: IKXWrist_R
+  - first:
+      1: 100754
+    second: IndexFinger1_L
+  - first:
+      1: 100756
+    second: IndexFinger1_R
+  - first:
+      1: 100758
+    second: IndexFinger2_L
+  - first:
+      1: 100760
+    second: IndexFinger2_R
+  - first:
+      1: 100762
+    second: IndexFinger3_L
+  - first:
+      1: 100764
+    second: IndexFinger3_R
+  - first:
+      1: 100766
+    second: Jaw_M
+  - first:
+      1: 100768
+    second: JawEnd_M
+  - first:
+      1: 100770
+    second: Knee_L
+  - first:
+      1: 100772
+    second: Knee_R
+  - first:
+      1: 100774
+    second: LowerCheek_L
+  - first:
+      1: 100776
+    second: LowerCheek_R
+  - first:
+      1: 100778
+    second: LowerNose_L
+  - first:
+      1: 100780
+    second: LowerNose_R
+  - first:
+      1: 100782
+    second: LowerNoseMid_M
+  - first:
+      1: 100784
+    second: M1
+  - first:
+      1: 100786
+    second: m1_bazooka
+  - first:
+      1: 100788
+    second: M1A1
+  - first:
+      1: 100790
+    second: m1a1-bazooka
+  - first:
+      1: 100792
+    second: Mag
+  - first:
+      1: 100794
+    second: Mag 1
+  - first:
+      1: 100796
+    second: Mag 2
+  - first:
+      1: 100798
+    second: Mag 3
+  - first:
+      1: 100800
+    second: Mag 4
+  - first:
+      1: 100802
+    second: Mag 5
+  - first:
+      1: 100804
+    second: Mag 6
+  - first:
+      1: 100806
+    second: Mag 7
+  - first:
+      1: 100808
+    second: Mag11
+  - first:
+      1: 100810
+    second: Mag6
+  - first:
+      1: 100812
+    second: Mag9
+  - first:
+      1: 100814
+    second: Main
+  - first:
+      1: 100816
+    second: Main 1
+  - first:
+      1: 100818
+    second: Main 2
+  - first:
+      1: 100820
+    second: mg42
+  - first:
+      1: 100822
+    second: MiddleFinger1_L
+  - first:
+      1: 100824
+    second: MiddleFinger1_R
+  - first:
+      1: 100826
+    second: MiddleFinger2_L
+  - first:
+      1: 100828
+    second: MiddleFinger2_R
+  - first:
+      1: 100830
+    second: MiddleFinger3_L
+  - first:
+      1: 100832
+    second: MiddleFinger3_R
+  - first:
+      1: 100834
+    second: MotionSystem
+  - first:
+      1: 100836
+    second: mp40
+  - first:
+      1: 100838
+    second: MP40_Rig
+  - first:
+      1: 100840
+    second: Neck_M
+  - first:
+      1: 100842
+    second: OuterMouth_L
+  - first:
+      1: 100844
+    second: OuterMouth_R
+  - first:
+      1: 100846
+    second: PinkyFinger1_L
+  - first:
+      1: 100848
+    second: PinkyFinger1_R
+  - first:
+      1: 100850
+    second: PinkyFinger2_L
+  - first:
+      1: 100852
+    second: PinkyFinger2_R
+  - first:
+      1: 100854
+    second: PinkyFinger3_L
+  - first:
+      1: 100856
+    second: PinkyFinger3_R
+  - first:
+      1: 100858
+    second: PoleArm_L
+  - first:
+      1: 100860
+    second: PoleArm_R
+  - first:
+      1: 100862
+    second: PoleExtraArm_L
+  - first:
+      1: 100864
+    second: PoleExtraArm_R
+  - first:
+      1: 100866
+    second: PoleExtraLeg_L
+  - first:
+      1: 100868
+    second: PoleExtraLeg_R
+  - first:
+      1: 100870
+    second: PoleLeg_L
+  - first:
+      1: 100872
+    second: PoleLeg_R
+  - first:
+      1: 100874
+    second: PoleOffsetArm_L
+  - first:
+      1: 100876
+    second: PoleOffsetArm_R
+  - first:
+      1: 100878
+    second: PoleOffsetLeg_L
+  - first:
+      1: 100880
+    second: PoleOffsetLeg_R
+  - first:
+      1: 100882
+    second: Props
+  - first:
+      1: 100884
+    second: //RootNode
+  - first:
+      1: 100886
+    second: RingFinger1_L
+  - first:
+      1: 100888
+    second: RingFinger1_R
+  - first:
+      1: 100890
+    second: RingFinger2_L
+  - first:
+      1: 100892
+    second: RingFinger2_R
+  - first:
+      1: 100894
+    second: RingFinger3_L
+  - first:
+      1: 100896
+    second: RingFinger3_R
+  - first:
+      1: 100898
+    second: RollExtraHeel_L
+  - first:
+      1: 100900
+    second: RollExtraHeel_R
+  - first:
+      1: 100902
+    second: RollExtraToes_L
+  - first:
+      1: 100904
+    second: RollExtraToes_R
+  - first:
+      1: 100906
+    second: RollExtraToesEnd_L
+  - first:
+      1: 100908
+    second: RollExtraToesEnd_R
+  - first:
+      1: 100910
+    second: RollHeel_L
+  - first:
+      1: 100912
+    second: RollHeel_R
+  - first:
+      1: 100914
+    second: RollOffsetHeel_L
+  - first:
+      1: 100916
+    second: RollOffsetHeel_R
+  - first:
+      1: 100918
+    second: RollOffsetToes_L
+  - first:
+      1: 100920
+    second: RollOffsetToes_R
+  - first:
+      1: 100922
+    second: RollOffsetToesEnd_L
+  - first:
+      1: 100924
+    second: RollOffsetToesEnd_R
+  - first:
+      1: 100926
+    second: RollRollerHeel_L
+  - first:
+      1: 100928
+    second: RollRollerHeel_R
+  - first:
+      1: 100930
+    second: RollRollerToes_L
+  - first:
+      1: 100932
+    second: RollRollerToes_R
+  - first:
+      1: 100934
+    second: RollRollerToesEnd_L
+  - first:
+      1: 100936
+    second: RollRollerToesEnd_R
+  - first:
+      1: 100938
+    second: RollToes_L
+  - first:
+      1: 100940
+    second: RollToes_R
+  - first:
+      1: 100942
+    second: RollToesEnd_L
+  - first:
+      1: 100944
+    second: RollToesEnd_R
+  - first:
+      1: 100946
+    second: Root
+  - first:
+      1: 100948
+    second: Root 1
+  - first:
+      1: 100950
+    second: Root 2
+  - first:
+      1: 100952
+    second: Root 3
+  - first:
+      1: 100954
+    second: Root 4
+  - first:
+      1: 100956
+    second: Root 5
+  - first:
+      1: 100958
+    second: Root 6
+  - first:
+      1: 100960
+    second: Root_M
+  - first:
+      1: 100962
+    second: Scapula_L
+  - first:
+      1: 100964
+    second: Scapula_R
+  - first:
+      1: 100966
+    second: SDKFKIndexFinger1_L
+  - first:
+      1: 100968
+    second: SDKFKIndexFinger1_R
+  - first:
+      1: 100970
+    second: SDKFKIndexFinger2_L
+  - first:
+      1: 100972
+    second: SDKFKIndexFinger2_R
+  - first:
+      1: 100974
+    second: SDKFKMiddleFinger1_L
+  - first:
+      1: 100976
+    second: SDKFKMiddleFinger1_R
+  - first:
+      1: 100978
+    second: SDKFKMiddleFinger2_L
+  - first:
+      1: 100980
+    second: SDKFKMiddleFinger2_R
+  - first:
+      1: 100982
+    second: SDKFKPinkyFinger1_L
+  - first:
+      1: 100984
+    second: SDKFKPinkyFinger1_R
+  - first:
+      1: 100986
+    second: SDKFKPinkyFinger2_L
+  - first:
+      1: 100988
+    second: SDKFKPinkyFinger2_R
+  - first:
+      1: 100990
+    second: SDKFKRingFinger1_L
+  - first:
+      1: 100992
+    second: SDKFKRingFinger1_R
+  - first:
+      1: 100994
+    second: SDKFKRingFinger2_L
+  - first:
+      1: 100996
+    second: SDKFKRingFinger2_R
+  - first:
+      1: 100998
+    second: SDKFKThumbFinger2_L
+  - first:
+      1: 101000
+    second: SDKFKThumbFinger2_R
+  - first:
+      1: 101002
+    second: Shoulder_L
+  - first:
+      1: 101004
+    second: Shoulder_R
+  - first:
+      1: 101006
+    second: Soldier_GB
+  - first:
+      1: 101008
+    second: Soldier_GB_FPS
+  - first:
+      1: 101010
+    second: Soldier_GE
+  - first:
+      1: 101012
+    second: Soldier_GE_FPS
+  - first:
+      1: 101014
+    second: Soldier_US
+  - first:
+      1: 101016
+    second: Soldier_US_FPS
+  - first:
+      1: 101018
+    second: Special_GE
+  - first:
+      1: 101020
+    second: Special_GE_FPS
+  - first:
+      1: 101022
+    second: Spine1_M
+  - first:
+      1: 101024
+    second: Stand
+  - first:
+      1: 101026
+    second: stengun
+  - first:
+      1: 101028
+    second: Stengun_Rig
+  - first:
+      1: 101030
+    second: Thompson_Rig
+  - first:
+      1: 101032
+    second: ThumbFinger1_L
+  - first:
+      1: 101034
+    second: ThumbFinger1_R
+  - first:
+      1: 101036
+    second: ThumbFinger2_L
+  - first:
+      1: 101038
+    second: ThumbFinger2_R
+  - first:
+      1: 101040
+    second: ThumbFinger3_L
+  - first:
+      1: 101042
+    second: ThumbFinger3_R
+  - first:
+      1: 101044
+    second: Toes_L
+  - first:
+      1: 101046
+    second: Toes_R
+  - first:
+      1: 101048
+    second: ToesEnd_L
+  - first:
+      1: 101050
+    second: ToesEnd_R
+  - first:
+      1: 101052
+    second: UpperLip_M
+  - first:
+      1: 101054
+    second: UpperNose_L
+  - first:
+      1: 101056
+    second: UpperNose_R
+  - first:
+      1: 101058
+    second: Wrist_L
+  - first:
+      1: 101060
+    second: Wrist_R
+  - first:
+      1: 101062
+    second: brengun
+  - first:
+      1: 101064
+    second: Guns
+  - first:
+      1: 101066
+    second: Hand_Container_L
+  - first:
+      1: 101068
+    second: Hand_Container_R
+  - first:
+      1: 101070
+    second: knife
+  - first:
+      1: 101072
+    second: m1-bazooka
+  - first:
+      1: 101074
+    second: thompson
+  - first:
+      4: 400000
+    second: Ankle_L
+  - first:
+      4: 400002
+    second: Ankle_R
+  - first:
+      4: 400004
+    second: BottomLip_M
+  - first:
+      4: 400006
+    second: brengun-ammo
+  - first:
+      4: 400008
+    second: brengun-base
+  - first:
+      4: 400010
+    second: brengun-stand
+  - first:
+      4: 400012
+    second: Brengun_Rig
+  - first:
+      4: 400014
+    second: Cheek_L
+  - first:
+      4: 400016
+    second: Cheek_R
+  - first:
+      4: 400018
+    second: Chest_M
+  - first:
+      4: 400020
+    second: DeformationSystem
+  - first:
+      4: 400022
+    second: DeformationSystem 1
+  - first:
+      4: 400024
+    second: DeformationSystem 2
+  - first:
+      4: 400026
+    second: DeformationSystem 3
+  - first:
+      4: 400028
+    second: DeformationSystem 4
+  - first:
+      4: 400030
+    second: DeformationSystem 5
+  - first:
+      4: 400032
+    second: DeformationSystem 6
+  - first:
+      4: 400034
+    second: DeformationSystem 7
+  - first:
+      4: 400036
+    second: Elbow_L
+  - first:
+      4: 400038
+    second: Elbow_R
+  - first:
+      4: 400040
+    second: Eye_L
+  - first:
+      4: 400042
+    second: Eye_R
+  - first:
+      4: 400044
+    second: EyebrowCenter_M
+  - first:
+      4: 400046
+    second: EyebrowInner_L
+  - first:
+      4: 400048
+    second: EyebrowInner_R
+  - first:
+      4: 400050
+    second: EyebrowMid_L
+  - first:
+      4: 400052
+    second: EyebrowMid_R
+  - first:
+      4: 400054
+    second: EyebrowOuter_L
+  - first:
+      4: 400056
+    second: EyebrowOuter_R
+  - first:
+      4: 400058
+    second: EyeEnd_L
+  - first:
+      4: 400060
+    second: EyeEnd_R
+  - first:
+      4: 400062
+    second: FKAimEye_L
+  - first:
+      4: 400064
+    second: FKAimEye_R
+  - first:
+      4: 400066
+    second: FKAnkle_L
+  - first:
+      4: 400068
+    second: FKAnkle_R
+  - first:
+      4: 400070
+    second: FKChest_M
+  - first:
+      4: 400072
+    second: FKElbow_L
+  - first:
+      4: 400074
+    second: FKElbow_R
+  - first:
+      4: 400076
+    second: FKExtraAnkle_L
+  - first:
+      4: 400078
+    second: FKExtraAnkle_R
+  - first:
+      4: 400080
+    second: FKExtraChest_M
+  - first:
+      4: 400082
+    second: FKExtraElbow_L
+  - first:
+      4: 400084
+    second: FKExtraElbow_R
+  - first:
+      4: 400086
+    second: FKExtraEye_L
+  - first:
+      4: 400088
+    second: FKExtraEye_R
+  - first:
+      4: 400090
+    second: FKExtraHead_M
+  - first:
+      4: 400092
+    second: FKExtraHip_L
+  - first:
+      4: 400094
+    second: FKExtraHip_R
+  - first:
+      4: 400096
+    second: FKExtraIndexFinger1_L
+  - first:
+      4: 400098
+    second: FKExtraIndexFinger1_R
+  - first:
+      4: 400100
+    second: FKExtraIndexFinger2_L
+  - first:
+      4: 400102
+    second: FKExtraIndexFinger2_R
+  - first:
+      4: 400104
+    second: FKExtraJaw_M
+  - first:
+      4: 400106
+    second: FKExtraKnee_L
+  - first:
+      4: 400108
+    second: FKExtraKnee_R
+  - first:
+      4: 400110
+    second: FKExtraMiddleFinger1_L
+  - first:
+      4: 400112
+    second: FKExtraMiddleFinger1_R
+  - first:
+      4: 400114
+    second: FKExtraMiddleFinger2_L
+  - first:
+      4: 400116
+    second: FKExtraMiddleFinger2_R
+  - first:
+      4: 400118
+    second: FKExtraNeck_M
+  - first:
+      4: 400120
+    second: FKExtraPinkyFinger1_L
+  - first:
+      4: 400122
+    second: FKExtraPinkyFinger1_R
+  - first:
+      4: 400124
+    second: FKExtraPinkyFinger2_L
+  - first:
+      4: 400126
+    second: FKExtraPinkyFinger2_R
+  - first:
+      4: 400128
+    second: FKExtraRingFinger1_L
+  - first:
+      4: 400130
+    second: FKExtraRingFinger1_R
+  - first:
+      4: 400132
+    second: FKExtraRingFinger2_L
+  - first:
+      4: 400134
+    second: FKExtraRingFinger2_R
+  - first:
+      4: 400136
+    second: FKExtraRoot_M
+  - first:
+      4: 400138
+    second: FKExtraScapula_L
+  - first:
+      4: 400140
+    second: FKExtraScapula_R
+  - first:
+      4: 400142
+    second: FKExtraShoulder_L
+  - first:
+      4: 400144
+    second: FKExtraShoulder_R
+  - first:
+      4: 400146
+    second: FKExtraSpine1_M
+  - first:
+      4: 400148
+    second: FKExtraThumbFinger1_L
+  - first:
+      4: 400150
+    second: FKExtraThumbFinger1_R
+  - first:
+      4: 400152
+    second: FKExtraThumbFinger2_L
+  - first:
+      4: 400154
+    second: FKExtraThumbFinger2_R
+  - first:
+      4: 400156
+    second: FKExtraToes_L
+  - first:
+      4: 400158
+    second: FKExtraToes_R
+  - first:
+      4: 400160
+    second: FKExtraWrist_L
+  - first:
+      4: 400162
+    second: FKExtraWrist_R
+  - first:
+      4: 400164
+    second: FKEye_L
+  - first:
+      4: 400166
+    second: FKEye_R
+  - first:
+      4: 400168
+    second: FKGlobalHead_M
+  - first:
+      4: 400170
+    second: FKGlobalStaticHead_M
+  - first:
+      4: 400172
+    second: FKHead_M
+  - first:
+      4: 400174
+    second: FKHip_L
+  - first:
+      4: 400176
+    second: FKHip_R
+  - first:
+      4: 400178
+    second: FKIKArm_L
+  - first:
+      4: 400180
+    second: FKIKArm_R
+  - first:
+      4: 400182
+    second: FKIKLeg_L
+  - first:
+      4: 400184
+    second: FKIKLeg_R
+  - first:
+      4: 400186
+    second: FKIKParentConstraintArm_L
+  - first:
+      4: 400188
+    second: FKIKParentConstraintArm_R
+  - first:
+      4: 400190
+    second: FKIKParentConstraintLeg_L
+  - first:
+      4: 400192
+    second: FKIKParentConstraintLeg_R
+  - first:
+      4: 400194
+    second: FKIKParentConstraintSpine_M
+  - first:
+      4: 400196
+    second: FKIKSpine_M
+  - first:
+      4: 400198
+    second: FKIKSystem
+  - first:
+      4: 400200
+    second: FKIndexFinger1_L
+  - first:
+      4: 400202
+    second: FKIndexFinger1_R
+  - first:
+      4: 400204
+    second: FKIndexFinger2_L
+  - first:
+      4: 400206
+    second: FKIndexFinger2_R
+  - first:
+      4: 400208
+    second: FKJaw_M
+  - first:
+      4: 400210
+    second: FKKnee_L
+  - first:
+      4: 400212
+    second: FKKnee_R
+  - first:
+      4: 400214
+    second: FKMiddleFinger1_L
+  - first:
+      4: 400216
+    second: FKMiddleFinger1_R
+  - first:
+      4: 400218
+    second: FKMiddleFinger2_L
+  - first:
+      4: 400220
+    second: FKMiddleFinger2_R
+  - first:
+      4: 400222
+    second: FKNeck_M
+  - first:
+      4: 400224
+    second: FKOffsetAnkle_L
+  - first:
+      4: 400226
+    second: FKOffsetAnkle_R
+  - first:
+      4: 400228
+    second: FKOffsetChest_M
+  - first:
+      4: 400230
+    second: FKOffsetElbow_L
+  - first:
+      4: 400232
+    second: FKOffsetElbow_R
+  - first:
+      4: 400234
+    second: FKOffsetEye_L
+  - first:
+      4: 400236
+    second: FKOffsetEye_R
+  - first:
+      4: 400238
+    second: FKOffsetHead_M
+  - first:
+      4: 400240
+    second: FKOffsetHip_L
+  - first:
+      4: 400242
+    second: FKOffsetHip_R
+  - first:
+      4: 400244
+    second: FKOffsetIndexFinger1_L
+  - first:
+      4: 400246
+    second: FKOffsetIndexFinger1_R
+  - first:
+      4: 400248
+    second: FKOffsetIndexFinger2_L
+  - first:
+      4: 400250
+    second: FKOffsetIndexFinger2_R
+  - first:
+      4: 400252
+    second: FKOffsetJaw_M
+  - first:
+      4: 400254
+    second: FKOffsetKnee_L
+  - first:
+      4: 400256
+    second: FKOffsetKnee_R
+  - first:
+      4: 400258
+    second: FKOffsetMiddleFinger1_L
+  - first:
+      4: 400260
+    second: FKOffsetMiddleFinger1_R
+  - first:
+      4: 400262
+    second: FKOffsetMiddleFinger2_L
+  - first:
+      4: 400264
+    second: FKOffsetMiddleFinger2_R
+  - first:
+      4: 400266
+    second: FKOffsetNeck_M
+  - first:
+      4: 400268
+    second: FKOffsetPinkyFinger1_L
+  - first:
+      4: 400270
+    second: FKOffsetPinkyFinger1_R
+  - first:
+      4: 400272
+    second: FKOffsetPinkyFinger2_L
+  - first:
+      4: 400274
+    second: FKOffsetPinkyFinger2_R
+  - first:
+      4: 400276
+    second: FKOffsetRingFinger1_L
+  - first:
+      4: 400278
+    second: FKOffsetRingFinger1_R
+  - first:
+      4: 400280
+    second: FKOffsetRingFinger2_L
+  - first:
+      4: 400282
+    second: FKOffsetRingFinger2_R
+  - first:
+      4: 400284
+    second: FKOffsetRoot_M
+  - first:
+      4: 400286
+    second: FKOffsetScapula_L
+  - first:
+      4: 400288
+    second: FKOffsetScapula_R
+  - first:
+      4: 400290
+    second: FKOffsetShoulder_L
+  - first:
+      4: 400292
+    second: FKOffsetShoulder_R
+  - first:
+      4: 400294
+    second: FKOffsetSpine1_M
+  - first:
+      4: 400296
+    second: FKOffsetThumbFinger1_L
+  - first:
+      4: 400298
+    second: FKOffsetThumbFinger1_R
+  - first:
+      4: 400300
+    second: FKOffsetThumbFinger2_L
+  - first:
+      4: 400302
+    second: FKOffsetThumbFinger2_R
+  - first:
+      4: 400304
+    second: FKOffsetToes_L
+  - first:
+      4: 400306
+    second: FKOffsetToes_R
+  - first:
+      4: 400308
+    second: FKOffsetWrist_L
+  - first:
+      4: 400310
+    second: FKOffsetWrist_R
+  - first:
+      4: 400312
+    second: FKParentConstraintToChest_M
+  - first:
+      4: 400314
+    second: FKParentConstraintToRoot_M
+  - first:
+      4: 400316
+    second: FKParentConstraintToScapula_L
+  - first:
+      4: 400318
+    second: FKParentConstraintToScapula_R
+  - first:
+      4: 400320
+    second: FKParentConstraintToWrist_L
+  - first:
+      4: 400322
+    second: FKParentConstraintToWrist_R
+  - first:
+      4: 400324
+    second: FKPinkyFinger1_L
+  - first:
+      4: 400326
+    second: FKPinkyFinger1_R
+  - first:
+      4: 400328
+    second: FKPinkyFinger2_L
+  - first:
+      4: 400330
+    second: FKPinkyFinger2_R
+  - first:
+      4: 400332
+    second: FKRingFinger1_L
+  - first:
+      4: 400334
+    second: FKRingFinger1_R
+  - first:
+      4: 400336
+    second: FKRingFinger2_L
+  - first:
+      4: 400338
+    second: FKRingFinger2_R
+  - first:
+      4: 400340
+    second: FKRoot_M
+  - first:
+      4: 400342
+    second: FKScapula_L
+  - first:
+      4: 400344
+    second: FKScapula_R
+  - first:
+      4: 400346
+    second: FKShoulder_L
+  - first:
+      4: 400348
+    second: FKShoulder_R
+  - first:
+      4: 400350
+    second: FKSpine1_M
+  - first:
+      4: 400352
+    second: FKSystem
+  - first:
+      4: 400354
+    second: FKThumbFinger1_L
+  - first:
+      4: 400356
+    second: FKThumbFinger1_R
+  - first:
+      4: 400358
+    second: FKThumbFinger2_L
+  - first:
+      4: 400360
+    second: FKThumbFinger2_R
+  - first:
+      4: 400362
+    second: FKToes_L
+  - first:
+      4: 400364
+    second: FKToes_R
+  - first:
+      4: 400366
+    second: FKWrist_L
+  - first:
+      4: 400368
+    second: FKWrist_R
+  - first:
+      4: 400370
+    second: FKXAnkle_L
+  - first:
+      4: 400372
+    second: FKXAnkle_R
+  - first:
+      4: 400374
+    second: FKXChest_M
+  - first:
+      4: 400376
+    second: FKXElbow_L
+  - first:
+      4: 400378
+    second: FKXElbow_R
+  - first:
+      4: 400380
+    second: FKXEye_L
+  - first:
+      4: 400382
+    second: FKXEye_R
+  - first:
+      4: 400384
+    second: FKXHead_M
+  - first:
+      4: 400386
+    second: FKXHip_L
+  - first:
+      4: 400388
+    second: FKXHip_R
+  - first:
+      4: 400390
+    second: FKXIndexFinger1_L
+  - first:
+      4: 400392
+    second: FKXIndexFinger1_R
+  - first:
+      4: 400394
+    second: FKXIndexFinger2_L
+  - first:
+      4: 400396
+    second: FKXIndexFinger2_R
+  - first:
+      4: 400398
+    second: FKXJaw_M
+  - first:
+      4: 400400
+    second: FKXKnee_L
+  - first:
+      4: 400402
+    second: FKXKnee_R
+  - first:
+      4: 400404
+    second: FKXMiddleFinger1_L
+  - first:
+      4: 400406
+    second: FKXMiddleFinger1_R
+  - first:
+      4: 400408
+    second: FKXMiddleFinger2_L
+  - first:
+      4: 400410
+    second: FKXMiddleFinger2_R
+  - first:
+      4: 400412
+    second: FKXNeck_M
+  - first:
+      4: 400414
+    second: FKXPinkyFinger1_L
+  - first:
+      4: 400416
+    second: FKXPinkyFinger1_R
+  - first:
+      4: 400418
+    second: FKXPinkyFinger2_L
+  - first:
+      4: 400420
+    second: FKXPinkyFinger2_R
+  - first:
+      4: 400422
+    second: FKXRingFinger1_L
+  - first:
+      4: 400424
+    second: FKXRingFinger1_R
+  - first:
+      4: 400426
+    second: FKXRingFinger2_L
+  - first:
+      4: 400428
+    second: FKXRingFinger2_R
+  - first:
+      4: 400430
+    second: FKXRoot_M
+  - first:
+      4: 400432
+    second: FKXScapula_L
+  - first:
+      4: 400434
+    second: FKXScapula_R
+  - first:
+      4: 400436
+    second: FKXShoulder_L
+  - first:
+      4: 400438
+    second: FKXShoulder_R
+  - first:
+      4: 400440
+    second: FKXSpine1_M
+  - first:
+      4: 400442
+    second: FKXThumbFinger1_L
+  - first:
+      4: 400444
+    second: FKXThumbFinger1_R
+  - first:
+      4: 400446
+    second: FKXThumbFinger2_L
+  - first:
+      4: 400448
+    second: FKXThumbFinger2_R
+  - first:
+      4: 400450
+    second: FKXToes_L
+  - first:
+      4: 400452
+    second: FKXToes_R
+  - first:
+      4: 400454
+    second: FKXWrist_L
+  - first:
+      4: 400456
+    second: FKXWrist_R
+  - first:
+      4: 400458
+    second: Geo
+  - first:
+      4: 400460
+    second: Geo 1
+  - first:
+      4: 400462
+    second: Geo 2
+  - first:
+      4: 400464
+    second: Geo 3
+  - first:
+      4: 400466
+    second: Geo 4
+  - first:
+      4: 400468
+    second: Geo 5
+  - first:
+      4: 400470
+    second: Geo 6
+  - first:
+      4: 400472
+    second: Geometry
+  - first:
+      4: 400474
+    second: Gun
+  - first:
+      4: 400476
+    second: Gun 1
+  - first:
+      4: 400478
+    second: Gun_Rigs
+  - first:
+      4: 400480
+    second: Head_M
+  - first:
+      4: 400482
+    second: HeadEnd_M
+  - first:
+      4: 400484
+    second: Hip_L
+  - first:
+      4: 400486
+    second: Hip_R
+  - first:
+      4: 400488
+    second: HipSwingerStabilizer
+  - first:
+      4: 400490
+    second: HipSwingReverse
+  - first:
+      4: 400492
+    second: HipSwingReverseRoot
+  - first:
+      4: 400494
+    second: IKAcChest_M
+  - first:
+      4: 400496
+    second: IKAcPociXformChest_M
+  - first:
+      4: 400498
+    second: IKAcPociXformSpine1_M
+  - first:
+      4: 400500
+    second: IKAcRoot_M
+  - first:
+      4: 400502
+    second: IKAcRootFollowOffset_M
+  - first:
+      4: 400504
+    second: IKAcSpine1_M
+  - first:
+      4: 400506
+    second: IKAcSpine1FollowOffset_M
+  - first:
+      4: 400508
+    second: IKAcSpineOffset2_M
+  - first:
+      4: 400510
+    second: IKAcSpineOffset3_M
+  - first:
+      4: 400512
+    second: IKAcSpineOffset_M
+  - first:
+      4: 400514
+    second: IKArm_L
+  - first:
+      4: 400516
+    second: IKArm_L_PH
+  - first:
+      4: 400518
+    second: IKArm_L_SN
+  - first:
+      4: 400520
+    second: IKArm_R
+  - first:
+      4: 400522
+    second: IKArm_R_PH
+  - first:
+      4: 400524
+    second: IKArm_R_SN
+  - first:
+      4: 400526
+    second: IKCurve
+  - first:
+      4: 400528
+    second: IKcvSpine1_M
+  - first:
+      4: 400530
+    second: IKdistanceArm_L
+  - first:
+      4: 400532
+    second: IKdistanceArm_R
+  - first:
+      4: 400534
+    second: IKdistanceLeg_L
+  - first:
+      4: 400536
+    second: IKdistanceLeg_R
+  - first:
+      4: 400538
+    second: IKExtraArm_L
+  - first:
+      4: 400540
+    second: IKExtraArm_R
+  - first:
+      4: 400542
+    second: IKExtracvSpine1_M
+  - first:
+      4: 400544
+    second: IKExtraLeg_L
+  - first:
+      4: 400546
+    second: IKExtraLeg_R
+  - first:
+      4: 400548
+    second: IKExtraSpine1_M
+  - first:
+      4: 400550
+    second: IKExtraSpine2_M
+  - first:
+      4: 400552
+    second: IKExtraSpine3_M
+  - first:
+      4: 400554
+    second: IKfake0Spine_M
+  - first:
+      4: 400556
+    second: IKFixedOrientRoot_M
+  - first:
+      4: 400558
+    second: IKFKAlignedArm_L
+  - first:
+      4: 400560
+    second: IKFKAlignedArm_R
+  - first:
+      4: 400562
+    second: IKFKAlignedLeg_L
+  - first:
+      4: 400564
+    second: IKFKAlignedLeg_R
+  - first:
+      4: 400566
+    second: IKFKAlignedOffsetArm_L
+  - first:
+      4: 400568
+    second: IKFKAlignedOffsetArm_R
+  - first:
+      4: 400570
+    second: IKFKAlignedOffsetLeg_L
+  - first:
+      4: 400572
+    second: IKFKAlignedOffsetLeg_R
+  - first:
+      4: 400574
+    second: IKHandle
+  - first:
+      4: 400576
+    second: IKhybridExtraSpine1_M
+  - first:
+      4: 400578
+    second: IKhybridExtraSpine2_M
+  - first:
+      4: 400580
+    second: IKhybridExtraSpine3_M
+  - first:
+      4: 400582
+    second: IKhybridFollowSpine1_M
+  - first:
+      4: 400584
+    second: IKhybridOffsetSpine1_M
+  - first:
+      4: 400586
+    second: IKhybridOffsetSpine2_M
+  - first:
+      4: 400588
+    second: IKhybridOffsetSpine3_M
+  - first:
+      4: 400590
+    second: IKhybridSpine1_M
+  - first:
+      4: 400592
+    second: IKhybridSpine2_M
+  - first:
+      4: 400594
+    second: IKhybridSpine3_M
+  - first:
+      4: 400596
+    second: IKJoints
+  - first:
+      4: 400598
+    second: IKLeg_L
+  - first:
+      4: 400600
+    second: IKLeg_R
+  - first:
+      4: 400602
+    second: IKMessure
+  - first:
+      4: 400604
+    second: IKmessureConstrainToArm_L
+  - first:
+      4: 400606
+    second: IKmessureConstrainToArm_R
+  - first:
+      4: 400608
+    second: IKmessureConstrainToLeg_L
+  - first:
+      4: 400610
+    second: IKmessureConstrainToLeg_R
+  - first:
+      4: 400612
+    second: IKMessureFromHip_L
+  - first:
+      4: 400614
+    second: IKMessureFromHip_R
+  - first:
+      4: 400616
+    second: IKMessureFromShoulder_L
+  - first:
+      4: 400618
+    second: IKMessureFromShoulder_R
+  - first:
+      4: 400620
+    second: IKmessureLoc1Arm_L
+  - first:
+      4: 400622
+    second: IKmessureLoc1Arm_R
+  - first:
+      4: 400624
+    second: IKmessureLoc1Leg_L
+  - first:
+      4: 400626
+    second: IKmessureLoc1Leg_R
+  - first:
+      4: 400628
+    second: IKmessureLoc2Arm_L
+  - first:
+      4: 400630
+    second: IKmessureLoc2Arm_R
+  - first:
+      4: 400632
+    second: IKmessureLoc2Leg_L
+  - first:
+      4: 400634
+    second: IKmessureLoc2Leg_R
+  - first:
+      4: 400636
+    second: IKOffsetArm_L
+  - first:
+      4: 400638
+    second: IKOffsetArm_R
+  - first:
+      4: 400640
+    second: IKOffsetConstrainedSpine1_M
+  - first:
+      4: 400642
+    second: IKOffsetcvSpine1_M
+  - first:
+      4: 400644
+    second: IKOffsetLeg_L
+  - first:
+      4: 400646
+    second: IKOffsetLeg_R
+  - first:
+      4: 400648
+    second: IKOffsetSpine1_M
+  - first:
+      4: 400650
+    second: IKOffsetSpine2_M
+  - first:
+      4: 400652
+    second: IKOffsetSpine3_M
+  - first:
+      4: 400654
+    second: IKParentConstraintHip_L
+  - first:
+      4: 400656
+    second: IKParentConstraintHip_R
+  - first:
+      4: 400658
+    second: IKParentConstraintRoot_M
+  - first:
+      4: 400660
+    second: IKParentConstraintShoulder_L
+  - first:
+      4: 400662
+    second: IKParentConstraintShoulder_R
+  - first:
+      4: 400664
+    second: IKScalerChest_M
+  - first:
+      4: 400666
+    second: IKScalerRoot_M
+  - first:
+      4: 400668
+    second: IKScalerSpine1_M
+  - first:
+      4: 400670
+    second: IKSpChest_M
+  - first:
+      4: 400672
+    second: IKSpChestFollowOffset_M
+  - first:
+      4: 400674
+    second: IKSpine1_M
+  - first:
+      4: 400676
+    second: IKSpine1LocalOrient1_M
+  - first:
+      4: 400678
+    second: IKSpine1LocalOrient2_M
+  - first:
+      4: 400680
+    second: IKSpine2_M
+  - first:
+      4: 400682
+    second: IKSpine2LocalOrient1_M
+  - first:
+      4: 400684
+    second: IKSpine2LocalOrient2_M
+  - first:
+      4: 400686
+    second: IKSpine3_M
+  - first:
+      4: 400688
+    second: IKSpine3LocalOrient1_M
+  - first:
+      4: 400690
+    second: IKSpine3LocalOrient2_M
+  - first:
+      4: 400692
+    second: IKSpineCurve_M
+  - first:
+      4: 400694
+    second: IKSpineLocator0_M
+  - first:
+      4: 400696
+    second: IKSpineLocator1_M
+  - first:
+      4: 400698
+    second: IKSpineLocator2_M
+  - first:
+      4: 400700
+    second: IKSpRootFollowOffset_M
+  - first:
+      4: 400702
+    second: IKSpSpine1_M
+  - first:
+      4: 400704
+    second: IKSpSpine1FollowOffset_M
+  - first:
+      4: 400706
+    second: IKSpSpineOffset_M
+  - first:
+      4: 400708
+    second: IKSystem
+  - first:
+      4: 400710
+    second: IKXAnkle_L
+  - first:
+      4: 400712
+    second: IKXAnkle_R
+  - first:
+      4: 400714
+    second: IKXChest_M
+  - first:
+      4: 400716
+    second: IKXElbow_L
+  - first:
+      4: 400718
+    second: IKXElbow_R
+  - first:
+      4: 400720
+    second: IKXHip_L
+  - first:
+      4: 400722
+    second: IKXHip_R
+  - first:
+      4: 400724
+    second: IKXKnee_L
+  - first:
+      4: 400726
+    second: IKXKnee_R
+  - first:
+      4: 400728
+    second: IKXOffsetHip_L
+  - first:
+      4: 400730
+    second: IKXOffsetHip_R
+  - first:
+      4: 400732
+    second: IKXOffsetRoot_M
+  - first:
+      4: 400734
+    second: IKXOffsetShoulder_L
+  - first:
+      4: 400736
+    second: IKXOffsetShoulder_R
+  - first:
+      4: 400738
+    second: IKXRoot_M
+  - first:
+      4: 400740
+    second: IKXShoulder_L
+  - first:
+      4: 400742
+    second: IKXShoulder_R
+  - first:
+      4: 400744
+    second: IKXSpine1_M
+  - first:
+      4: 400746
+    second: IKXToes_L
+  - first:
+      4: 400748
+    second: IKXToes_R
+  - first:
+      4: 400750
+    second: IKXWrist_L
+  - first:
+      4: 400752
+    second: IKXWrist_R
+  - first:
+      4: 400754
+    second: IndexFinger1_L
+  - first:
+      4: 400756
+    second: IndexFinger1_R
+  - first:
+      4: 400758
+    second: IndexFinger2_L
+  - first:
+      4: 400760
+    second: IndexFinger2_R
+  - first:
+      4: 400762
+    second: IndexFinger3_L
+  - first:
+      4: 400764
+    second: IndexFinger3_R
+  - first:
+      4: 400766
+    second: Jaw_M
+  - first:
+      4: 400768
+    second: JawEnd_M
+  - first:
+      4: 400770
+    second: Knee_L
+  - first:
+      4: 400772
+    second: Knee_R
+  - first:
+      4: 400774
+    second: LowerCheek_L
+  - first:
+      4: 400776
+    second: LowerCheek_R
+  - first:
+      4: 400778
+    second: LowerNose_L
+  - first:
+      4: 400780
+    second: LowerNose_R
+  - first:
+      4: 400782
+    second: LowerNoseMid_M
+  - first:
+      4: 400784
+    second: M1
+  - first:
+      4: 400786
+    second: m1_bazooka
+  - first:
+      4: 400788
+    second: M1A1
+  - first:
+      4: 400790
+    second: m1a1-bazooka
+  - first:
+      4: 400792
+    second: Mag
+  - first:
+      4: 400794
+    second: Mag 1
+  - first:
+      4: 400796
+    second: Mag 2
+  - first:
+      4: 400798
+    second: Mag 3
+  - first:
+      4: 400800
+    second: Mag 4
+  - first:
+      4: 400802
+    second: Mag 5
+  - first:
+      4: 400804
+    second: Mag 6
+  - first:
+      4: 400806
+    second: Mag 7
+  - first:
+      4: 400808
+    second: Mag11
+  - first:
+      4: 400810
+    second: Mag6
+  - first:
+      4: 400812
+    second: Mag9
+  - first:
+      4: 400814
+    second: Main
+  - first:
+      4: 400816
+    second: Main 1
+  - first:
+      4: 400818
+    second: Main 2
+  - first:
+      4: 400820
+    second: mg42
+  - first:
+      4: 400822
+    second: MiddleFinger1_L
+  - first:
+      4: 400824
+    second: MiddleFinger1_R
+  - first:
+      4: 400826
+    second: MiddleFinger2_L
+  - first:
+      4: 400828
+    second: MiddleFinger2_R
+  - first:
+      4: 400830
+    second: MiddleFinger3_L
+  - first:
+      4: 400832
+    second: MiddleFinger3_R
+  - first:
+      4: 400834
+    second: MotionSystem
+  - first:
+      4: 400836
+    second: mp40
+  - first:
+      4: 400838
+    second: MP40_Rig
+  - first:
+      4: 400840
+    second: Neck_M
+  - first:
+      4: 400842
+    second: OuterMouth_L
+  - first:
+      4: 400844
+    second: OuterMouth_R
+  - first:
+      4: 400846
+    second: PinkyFinger1_L
+  - first:
+      4: 400848
+    second: PinkyFinger1_R
+  - first:
+      4: 400850
+    second: PinkyFinger2_L
+  - first:
+      4: 400852
+    second: PinkyFinger2_R
+  - first:
+      4: 400854
+    second: PinkyFinger3_L
+  - first:
+      4: 400856
+    second: PinkyFinger3_R
+  - first:
+      4: 400858
+    second: PoleArm_L
+  - first:
+      4: 400860
+    second: PoleArm_R
+  - first:
+      4: 400862
+    second: PoleExtraArm_L
+  - first:
+      4: 400864
+    second: PoleExtraArm_R
+  - first:
+      4: 400866
+    second: PoleExtraLeg_L
+  - first:
+      4: 400868
+    second: PoleExtraLeg_R
+  - first:
+      4: 400870
+    second: PoleLeg_L
+  - first:
+      4: 400872
+    second: PoleLeg_R
+  - first:
+      4: 400874
+    second: PoleOffsetArm_L
+  - first:
+      4: 400876
+    second: PoleOffsetArm_R
+  - first:
+      4: 400878
+    second: PoleOffsetLeg_L
+  - first:
+      4: 400880
+    second: PoleOffsetLeg_R
+  - first:
+      4: 400882
+    second: Props
+  - first:
+      4: 400884
+    second: //RootNode
+  - first:
+      4: 400886
+    second: RingFinger1_L
+  - first:
+      4: 400888
+    second: RingFinger1_R
+  - first:
+      4: 400890
+    second: RingFinger2_L
+  - first:
+      4: 400892
+    second: RingFinger2_R
+  - first:
+      4: 400894
+    second: RingFinger3_L
+  - first:
+      4: 400896
+    second: RingFinger3_R
+  - first:
+      4: 400898
+    second: RollExtraHeel_L
+  - first:
+      4: 400900
+    second: RollExtraHeel_R
+  - first:
+      4: 400902
+    second: RollExtraToes_L
+  - first:
+      4: 400904
+    second: RollExtraToes_R
+  - first:
+      4: 400906
+    second: RollExtraToesEnd_L
+  - first:
+      4: 400908
+    second: RollExtraToesEnd_R
+  - first:
+      4: 400910
+    second: RollHeel_L
+  - first:
+      4: 400912
+    second: RollHeel_R
+  - first:
+      4: 400914
+    second: RollOffsetHeel_L
+  - first:
+      4: 400916
+    second: RollOffsetHeel_R
+  - first:
+      4: 400918
+    second: RollOffsetToes_L
+  - first:
+      4: 400920
+    second: RollOffsetToes_R
+  - first:
+      4: 400922
+    second: RollOffsetToesEnd_L
+  - first:
+      4: 400924
+    second: RollOffsetToesEnd_R
+  - first:
+      4: 400926
+    second: RollRollerHeel_L
+  - first:
+      4: 400928
+    second: RollRollerHeel_R
+  - first:
+      4: 400930
+    second: RollRollerToes_L
+  - first:
+      4: 400932
+    second: RollRollerToes_R
+  - first:
+      4: 400934
+    second: RollRollerToesEnd_L
+  - first:
+      4: 400936
+    second: RollRollerToesEnd_R
+  - first:
+      4: 400938
+    second: RollToes_L
+  - first:
+      4: 400940
+    second: RollToes_R
+  - first:
+      4: 400942
+    second: RollToesEnd_L
+  - first:
+      4: 400944
+    second: RollToesEnd_R
+  - first:
+      4: 400946
+    second: Root
+  - first:
+      4: 400948
+    second: Root 1
+  - first:
+      4: 400950
+    second: Root 2
+  - first:
+      4: 400952
+    second: Root 3
+  - first:
+      4: 400954
+    second: Root 4
+  - first:
+      4: 400956
+    second: Root 5
+  - first:
+      4: 400958
+    second: Root 6
+  - first:
+      4: 400960
+    second: Root_M
+  - first:
+      4: 400962
+    second: Scapula_L
+  - first:
+      4: 400964
+    second: Scapula_R
+  - first:
+      4: 400966
+    second: SDKFKIndexFinger1_L
+  - first:
+      4: 400968
+    second: SDKFKIndexFinger1_R
+  - first:
+      4: 400970
+    second: SDKFKIndexFinger2_L
+  - first:
+      4: 400972
+    second: SDKFKIndexFinger2_R
+  - first:
+      4: 400974
+    second: SDKFKMiddleFinger1_L
+  - first:
+      4: 400976
+    second: SDKFKMiddleFinger1_R
+  - first:
+      4: 400978
+    second: SDKFKMiddleFinger2_L
+  - first:
+      4: 400980
+    second: SDKFKMiddleFinger2_R
+  - first:
+      4: 400982
+    second: SDKFKPinkyFinger1_L
+  - first:
+      4: 400984
+    second: SDKFKPinkyFinger1_R
+  - first:
+      4: 400986
+    second: SDKFKPinkyFinger2_L
+  - first:
+      4: 400988
+    second: SDKFKPinkyFinger2_R
+  - first:
+      4: 400990
+    second: SDKFKRingFinger1_L
+  - first:
+      4: 400992
+    second: SDKFKRingFinger1_R
+  - first:
+      4: 400994
+    second: SDKFKRingFinger2_L
+  - first:
+      4: 400996
+    second: SDKFKRingFinger2_R
+  - first:
+      4: 400998
+    second: SDKFKThumbFinger2_L
+  - first:
+      4: 401000
+    second: SDKFKThumbFinger2_R
+  - first:
+      4: 401002
+    second: Shoulder_L
+  - first:
+      4: 401004
+    second: Shoulder_R
+  - first:
+      4: 401006
+    second: Soldier_GB
+  - first:
+      4: 401008
+    second: Soldier_GB_FPS
+  - first:
+      4: 401010
+    second: Soldier_GE
+  - first:
+      4: 401012
+    second: Soldier_GE_FPS
+  - first:
+      4: 401014
+    second: Soldier_US
+  - first:
+      4: 401016
+    second: Soldier_US_FPS
+  - first:
+      4: 401018
+    second: Special_GE
+  - first:
+      4: 401020
+    second: Special_GE_FPS
+  - first:
+      4: 401022
+    second: Spine1_M
+  - first:
+      4: 401024
+    second: Stand
+  - first:
+      4: 401026
+    second: stengun
+  - first:
+      4: 401028
+    second: Stengun_Rig
+  - first:
+      4: 401030
+    second: Thompson_Rig
+  - first:
+      4: 401032
+    second: ThumbFinger1_L
+  - first:
+      4: 401034
+    second: ThumbFinger1_R
+  - first:
+      4: 401036
+    second: ThumbFinger2_L
+  - first:
+      4: 401038
+    second: ThumbFinger2_R
+  - first:
+      4: 401040
+    second: ThumbFinger3_L
+  - first:
+      4: 401042
+    second: ThumbFinger3_R
+  - first:
+      4: 401044
+    second: Toes_L
+  - first:
+      4: 401046
+    second: Toes_R
+  - first:
+      4: 401048
+    second: ToesEnd_L
+  - first:
+      4: 401050
+    second: ToesEnd_R
+  - first:
+      4: 401052
+    second: UpperLip_M
+  - first:
+      4: 401054
+    second: UpperNose_L
+  - first:
+      4: 401056
+    second: UpperNose_R
+  - first:
+      4: 401058
+    second: Wrist_L
+  - first:
+      4: 401060
+    second: Wrist_R
+  - first:
+      4: 401062
+    second: brengun
+  - first:
+      4: 401064
+    second: Guns
+  - first:
+      4: 401066
+    second: Hand_Container_L
+  - first:
+      4: 401068
+    second: Hand_Container_R
+  - first:
+      4: 401070
+    second: knife
+  - first:
+      4: 401072
+    second: m1-bazooka
+  - first:
+      4: 401074
+    second: thompson
+  - first:
+      21: 2100000
+    second: lambert1
+  - first:
+      23: 2300000
+    second: brengun-ammo
+  - first:
+      23: 2300002
+    second: brengun-base
+  - first:
+      23: 2300004
+    second: brengun-stand
+  - first:
+      23: 2300006
+    second: knife
+  - first:
+      23: 2300008
+    second: m1-bazooka
+  - first:
+      23: 2300010
+    second: m1a1-bazooka
+  - first:
+      23: 2300012
+    second: mg42
+  - first:
+      23: 2300014
+    second: mp40
+  - first:
+      23: 2300016
+    second: stengun
+  - first:
+      23: 2300018
+    second: thompson
+  - first:
+      33: 3300000
+    second: brengun-ammo
+  - first:
+      33: 3300002
+    second: brengun-base
+  - first:
+      33: 3300004
+    second: brengun-stand
+  - first:
+      33: 3300006
+    second: knife
+  - first:
+      33: 3300008
+    second: m1-bazooka
+  - first:
+      33: 3300010
+    second: m1a1-bazooka
+  - first:
+      33: 3300012
+    second: mg42
+  - first:
+      33: 3300014
+    second: mp40
+  - first:
+      33: 3300016
+    second: stengun
+  - first:
+      33: 3300018
+    second: thompson
+  - first:
+      43: 4300000
+    second: Special_GE_FPS
+  - first:
+      43: 4300002
+    second: Soldier_GB_FPS
+  - first:
+      43: 4300004
+    second: Soldier_GE_FPS
+  - first:
+      43: 4300006
+    second: Soldier_US_FPS
+  - first:
+      43: 4300008
+    second: Special_GE
+  - first:
+      43: 4300010
+    second: Soldier_GB
+  - first:
+      43: 4300012
+    second: Soldier_GE
+  - first:
+      43: 4300014
+    second: Soldier_US
+  - first:
+      43: 4300016
+    second: m1a1-bazooka
+  - first:
+      43: 4300018
+    second: m1_bazooka
+  - first:
+      43: 4300020
+    second: Main
+  - first:
+      43: 4300022
+    second: Mag
+  - first:
+      43: 4300024
+    second: brengun-base
+  - first:
+      43: 4300026
+    second: brengun-ammo
+  - first:
+      43: 4300028
+    second: brengun-stand
+  - first:
+      43: 4300030
+    second: Mag
+  - first:
+      43: 4300032
+    second: Gun
+  - first:
+      43: 4300034
+    second: Mag
+  - first:
+      43: 4300036
+    second: Gun
+  - first:
+      43: 4300038
+    second: Mag
+  - first:
+      43: 4300040
+    second: Main
+  - first:
+      43: 4300042
+    second: m1-bazooka
+  - first:
+      43: 4300044
+    second: knife
+  - first:
+      43: 4300046
+    second: mg42
+  - first:
+      43: 4300048
+    second: mp40
+  - first:
+      43: 4300050
+    second: stengun
+  - first:
+      43: 4300052
+    second: thompson
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: brengun-ammo
+  - first:
+      137: 13700002
+    second: brengun-base
+  - first:
+      137: 13700004
+    second: brengun-stand
+  - first:
+      137: 13700006
+    second: Gun
+  - first:
+      137: 13700008
+    second: Gun 1
+  - first:
+      137: 13700010
+    second: m1_bazooka
+  - first:
+      137: 13700012
+    second: m1a1-bazooka
+  - first:
+      137: 13700014
+    second: Mag 4
+  - first:
+      137: 13700016
+    second: Mag 5
+  - first:
+      137: 13700018
+    second: Mag 6
+  - first:
+      137: 13700020
+    second: Mag 7
+  - first:
+      137: 13700022
+    second: Main 1
+  - first:
+      137: 13700024
+    second: Main 2
+  - first:
+      137: 13700026
+    second: Soldier_GB
+  - first:
+      137: 13700028
+    second: Soldier_GB_FPS
+  - first:
+      137: 13700030
+    second: Soldier_GE
+  - first:
+      137: 13700032
+    second: Soldier_GE_FPS
+  - first:
+      137: 13700034
+    second: Soldier_US
+  - first:
+      137: 13700036
+    second: Soldier_US_FPS
+  - first:
+      137: 13700038
+    second: Special_GE
+  - first:
+      137: 13700040
+    second: Special_GE_FPS
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 428791dbdc8f0470f8c37d12d8855a91, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Hand_Container_L
+    - Main/DeformationSystem/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Hand_Container_R
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scapula_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scapula_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaw_M
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbFinger1_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbFinger2_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbFinger3_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexFinger1_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexFinger2_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexFinger3_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger1_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger2_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger3_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingFinger1_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingFinger2_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingFinger3_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger1_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger2_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger3_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbFinger1_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbFinger2_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ThumbFinger3_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexFinger1_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexFinger2_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IndexFinger3_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger1_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger2_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MiddleFinger3_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingFinger1_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingFinger2_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RingFinger3_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger1_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger2_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PinkyFinger3_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Rig(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Main
+      parentName: Rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DeformationSystem
+      parentName: Main
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root_M
+      parentName: DeformationSystem
+      position: {x: 1.0708535e-16, y: 0.982851, z: 0.015691962}
+      rotation: {x: 0.49605376, y: -0.5039154, z: -0.49605376, w: 0.50391537}
+      scale: {x: 1.0000048, y: 1.0000048, z: 1.0000048}
+    - name: Hip_R
+      parentName: Root_M
+      position: {x: 0.020835532, y: -0.0056810114, z: -0.08196866}
+      rotation: {x: -0.04921394, y: 0.9986458, z: -0.003412902, w: -0.016525328}
+      scale: {x: 1.0000044, y: 1.0000015, z: 1.0000044}
+    - name: Knee_R
+      parentName: Hip_R
+      position: {x: -0.46579918, y: -4.796163e-16, z: 5.506706e-16}
+      rotation: {x: 0.00000004470348, y: 0.000000009313225, z: 0.16938062, w: 0.9855507}
+      scale: {x: 0.9999996, y: 1.0000006, z: 1.0000001}
+    - name: Ankle_R
+      parentName: Knee_R
+      position: {x: -0.37618104, y: -1.1723955e-15, z: 5.506706e-16}
+      rotation: {x: -0.01568225, y: -0.014591478, z: -0.112984665, w: 0.9933659}
+      scale: {x: 1.0000008, y: 1.0000017, z: 1.0000011}
+    - name: Toes_R
+      parentName: Ankle_R
+      position: {x: -0.11049568, y: 0.08593043, z: 5.0270897e-15}
+      rotation: {x: 0.007446072, y: 0.0058315457, z: -0.61656046, w: 0.7872509}
+      scale: {x: 1.000003, y: 1.0000023, z: 1.0000027}
+    - name: ToesEnd_R
+      parentName: Toes_R
+      position: {x: -0.093909815, y: -3.5860204e-14, z: 0.00000016266274}
+      rotation: {x: -0.00000012665983, y: 0.000000018160783, z: 0.000000058789716,
+        w: 1}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.0000006}
+    - name: Hip_L
+      parentName: Root_M
+      position: {x: 0.020835532, y: -0.0056810114, z: 0.08196866}
+      rotation: {x: 0.9986457, y: 0.04921387, z: 0.016525209, w: -0.0034128577}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000007}
+    - name: Knee_L
+      parentName: Hip_L
+      position: {x: 0.46579918, y: 2.842171e-16, z: -4.973799e-16}
+      rotation: {x: -0.000000017229466, y: -0.000000056083074, z: -0.1693805, w: -0.98555076}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000002}
+    - name: Ankle_L
+      parentName: Knee_L
+      position: {x: 0.37618104, y: 9.7699626e-17, z: -2.842171e-16}
+      rotation: {x: 0.015682211, y: 0.014591487, z: 0.11298463, w: -0.9933659}
+      scale: {x: 1.0000012, y: 1.0000015, z: 1.000002}
+    - name: Toes_L
+      parentName: Ankle_L
+      position: {x: 0.11049568, y: -0.08593043, z: -5.2935434e-15}
+      rotation: {x: 0.007446786, y: 0.0058321543, z: -0.6165604, w: 0.78725076}
+      scale: {x: 1.0000025, y: 1.000004, z: 1.0000029}
+    - name: ToesEnd_L
+      parentName: Toes_L
+      position: {x: 0.093909815, y: 2.6201262e-16, z: 6.278986e-10}
+      rotation: {x: 0.00000012060624, y: 0.0000009201465, z: -0.000000043477474, w: 1}
+      scale: {x: 1.0000004, y: 1.0000021, z: 0.9999999}
+    - name: Spine1_M
+      parentName: Root_M
+      position: {x: -0.17391375, y: 6.9277914e-16, z: -1.0708535e-16}
+      rotation: {x: -0.000000029802322, y: 0.000000029802322, z: -0.03233494, w: 0.99947715}
+      scale: {x: 1.0000038, y: 1.0000043, z: 1.0000032}
+    - name: Chest_M
+      parentName: Spine1_M
+      position: {x: -0.25686407, y: 8.970602e-16, z: -1.1545079e-16}
+      rotation: {x: -0.000000034070645, y: 0.000000025647033, z: 0.10885456, w: 0.9940577}
+      scale: {x: 1.0000049, y: 1.0000032, z: 1.0000066}
+    - name: Scapula_R
+      parentName: Chest_M
+      position: {x: -0.0037425128, y: -0.0078088413, z: -0.062583625}
+      rotation: {x: 0.17237745, y: 0.68582535, z: -0.054426167, w: -0.70495915}
+      scale: {x: 1.0000087, y: 1.0000046, z: 1.0000037}
+    - name: Shoulder_R
+      parentName: Scapula_R
+      position: {x: -0.104209974, y: 1.7763568e-17, z: 2.842171e-16}
+      rotation: {x: 0.055574328, y: -0.011328843, z: -0.201275, w: 0.97789145}
+      scale: {x: 0.99999744, y: 1.0000024, z: 0.99999976}
+    - name: Elbow_R
+      parentName: Shoulder_R
+      position: {x: -0.29240897, y: 7.782219e-14, z: 1.4210854e-15}
+      rotation: {x: 0.0004835573, y: 0.0037162104, z: 0.006057802, w: 0.99997467}
+      scale: {x: 1.0000114, y: 1.0000029, z: 1.0000036}
+    - name: Hand_Container_R
+      parentName: Elbow_R
+      position: {x: -0.37552038, y: 0.015481036, z: -0.0640491}
+      rotation: {x: -0.16709536, y: -0.69063807, z: 0.1520786, w: 0.68700093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guns
+      parentName: Hand_Container_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brengun
+      parentName: Guns
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: brengun-base
+      parentName: brengun
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brengun-ammo
+      parentName: brengun
+      position: {x: -0.0000000023841857, y: 0.0009292769, z: 0.00079981325}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brengun-stand
+      parentName: brengun
+      position: {x: -0.0000000023841857, y: 0.0001319766, z: 0.004953513}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m1-bazooka
+      parentName: Guns
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: m1a1-bazooka
+      parentName: Guns
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: knife
+      parentName: Guns
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mg42
+      parentName: Guns
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mp40
+      parentName: Guns
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: stengun
+      parentName: Guns
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: thompson
+      parentName: Guns
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wrist_R
+      parentName: Elbow_R
+      position: {x: -0.28931677, y: 7.601031e-14, z: 5.6843415e-15}
+      rotation: {x: -0.04253304, y: -0.08119571, z: 0.016859822, w: 0.99564755}
+      scale: {x: 1.0000085, y: 1.0000058, z: 1.000004}
+    - name: MiddleFinger1_R
+      parentName: Wrist_R
+      position: {x: -0.11278203, y: 0, z: 2.842171e-16}
+      rotation: {x: 0.0033071584, y: -0.03463289, z: 0.0614908, w: 0.99750113}
+      scale: {x: 1.0000091, y: 1.0000045, z: 1.0000072}
+    - name: MiddleFinger2_R
+      parentName: MiddleFinger1_R
+      position: {x: -0.04418132, y: 3.330669e-18, z: -2.842171e-16}
+      rotation: {x: -0.000040953255, y: -0.037779473, z: 0.0025470112, w: 0.9992829}
+      scale: {x: 1.0000038, y: 1.0000014, z: 0.9999939}
+    - name: MiddleFinger3_R
+      parentName: MiddleFinger2_R
+      position: {x: -0.04433157, y: -5.4256166e-15, z: 6.536993e-15}
+      rotation: {x: 5.820764e-11, y: 0.000000007450578, z: -1.2778396e-10, w: 1}
+      scale: {x: 1.0000007, y: 1.0000026, z: 1.0000039}
+    - name: ThumbFinger1_R
+      parentName: Wrist_R
+      position: {x: -0.06696085, y: 0.032880183, z: -0.006129249}
+      rotation: {x: -0.45316142, y: 0.10141908, z: -0.35254213, w: 0.81244874}
+      scale: {x: 1.0000167, y: 0.9999995, z: 1.0000012}
+    - name: ThumbFinger2_R
+      parentName: ThumbFinger1_R
+      position: {x: -0.03559904, y: 5.684342e-16, z: -3.5527135e-16}
+      rotation: {x: 0.038060438, y: -0.020538306, z: 0.023051593, w: 0.99879843}
+      scale: {x: 0.9999753, y: 1.0000165, z: 1.0000033}
+    - name: ThumbFinger3_R
+      parentName: ThumbFinger2_R
+      position: {x: -0.039265227, y: 1.1368684e-15, z: 1.4210854e-16}
+      rotation: {x: 0.0000000037252885, y: -0, z: -0.000000011641527, w: 1}
+      scale: {x: 1.0000024, y: 1.0000044, z: 1.0000014}
+    - name: IndexFinger1_R
+      parentName: Wrist_R
+      position: {x: -0.103645496, y: 0.02030841, z: -0.0022623113}
+      rotation: {x: -0.026169663, y: -0.053468037, z: -0.03013517, w: 0.9977717}
+      scale: {x: 1.0000118, y: 1.000004, z: 1.0000033}
+    - name: IndexFinger2_R
+      parentName: IndexFinger1_R
+      position: {x: -0.04966167, y: -7.105427e-17, z: -2.842171e-16}
+      rotation: {x: -0.010374314, y: -0.030746963, z: 0.025920114, w: 0.9991372}
+      scale: {x: 1.0000088, y: 1.0000052, z: 1}
+    - name: IndexFinger3_R
+      parentName: IndexFinger2_R
+      position: {x: -0.04207957, y: 1.4210854e-16, z: 1.1368684e-15}
+      rotation: {x: -0, y: -0, z: -5.238688e-10, w: 1}
+      scale: {x: 1.0000064, y: 1.0000035, z: 1.0000039}
+    - name: RingFinger1_R
+      parentName: Wrist_R
+      position: {x: -0.101038806, y: -0.023444807, z: 0.0015910169}
+      rotation: {x: 0.015735595, y: -0.029316088, z: 0.075335085, w: 0.9966031}
+      scale: {x: 1.000015, y: 1.0000072, z: 1.000007}
+    - name: RingFinger2_R
+      parentName: RingFinger1_R
+      position: {x: -0.04753537, y: -8.881784e-18, z: -2.842171e-16}
+      rotation: {x: -0.0023738502, y: -0.03862799, z: 0.0015635239, w: 0.9992497}
+      scale: {x: 1.0000094, y: 1.0000026, z: 0.9999963}
+    - name: RingFinger3_R
+      parentName: RingFinger2_R
+      position: {x: -0.042304706, y: 1.7763568e-17, z: 5.684342e-16}
+      rotation: {x: 2.3283056e-10, y: -0, z: -1.7462293e-10, w: 1}
+      scale: {x: 1.0000035, y: 1.0000038, z: 1.0000013}
+    - name: PinkyFinger1_R
+      parentName: Wrist_R
+      position: {x: -0.0889727, y: -0.03919939, z: 0.0030241408}
+      rotation: {x: 0.03527891, y: -0.027696604, z: 0.07071463, w: 0.9964877}
+      scale: {x: 1.0000095, y: 1.0000088, z: 1.0000042}
+    - name: PinkyFinger2_R
+      parentName: PinkyFinger1_R
+      position: {x: -0.04922278, y: -7.105427e-17, z: -2.842171e-16}
+      rotation: {x: 0.010382614, y: -0.0221767, z: -0.033808984, w: 0.99912834}
+      scale: {x: 1.0000083, y: 1.0000069, z: 1.0000039}
+    - name: PinkyFinger3_R
+      parentName: PinkyFinger2_R
+      position: {x: -0.037715204, y: -5.684342e-16, z: -1.9895197e-15}
+      rotation: {x: 9.3132235e-10, y: -0, z: 6.402841e-10, w: 1}
+      scale: {x: 1.0000004, y: 1.0000026, z: 1.000002}
+    - name: Neck_M
+      parentName: Chest_M
+      position: {x: -0.1372251, y: -3.5527136e-17, z: 1.3085283e-17}
+      rotation: {x: 0.00000003248625, y: -0.000000027292124, z: -0.08188238, w: 0.99664205}
+      scale: {x: 1.0000013, y: 1.0000025, z: 1.0000006}
+    - name: Head_M
+      parentName: Neck_M
+      position: {x: -0.14186166, y: -6.528111e-16, z: 5.202554e-17}
+      rotation: {x: 7.749889e-11, y: 7.852385e-11, z: -0.002617709, w: 0.99999666}
+      scale: {x: 1.0000029, y: 1.0000025, z: 1.0000027}
+    - name: Eye_R
+      parentName: Head_M
+      position: {x: 0.027244024, y: 0.10484986, z: -0.03423012}
+      rotation: {x: -0.000000017457245, y: -1.3724887e-10, z: -0.70710677, w: 0.7071068}
+      scale: {x: 1.0000035, y: 1.0000062, z: 1.0000036}
+    - name: EyeEnd_R
+      parentName: Eye_R
+      position: {x: -0.017087016, y: -3.694822e-15, z: 1.9095835e-16}
+      rotation: {x: -8.88178e-16, y: -8.951169e-16, z: -2.3959868e-18, w: 1}
+      scale: {x: 1.0000021, y: 1.0000038, z: 1.000002}
+    - name: HeadEnd_M
+      parentName: Head_M
+      position: {x: -0.09642659, y: 3.4416913e-16, z: -1.3051364e-16}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: Cheek_R
+      parentName: Head_M
+      position: {x: 0.06519327, y: 0.09166024, z: -0.065865785}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: LowerNose_R
+      parentName: Head_M
+      position: {x: 0.07170908, y: 0.12503974, z: -0.020640444}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: UpperNose_R
+      parentName: Head_M
+      position: {x: 0.03668772, y: 0.113807015, z: -0.015082455}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: EyebrowCenter_M
+      parentName: Head_M
+      position: {x: -0.004035544, y: 0.13062547, z: -6.121699e-16}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: LowerNoseMid_M
+      parentName: Head_M
+      position: {x: 0.07873514, y: 0.1403271, z: -5.6842417e-16}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: EyebrowInner_R
+      parentName: Head_M
+      position: {x: 0.0017180871, y: 0.13114001, z: -0.019924846}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: EyebrowMid_R
+      parentName: Head_M
+      position: {x: 0.0019047022, y: 0.11870839, z: -0.038879696}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: EyebrowOuter_R
+      parentName: Head_M
+      position: {x: 0.0021386193, y: 0.103120714, z: -0.06264672}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: UpperLip_M
+      parentName: Head_M
+      position: {x: 0.10034327, y: 0.13663757, z: -5.5847206e-16}
+      rotation: {x: -0, y: -6.9388922e-18, z: 2.3283059e-10, w: 1}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: Eye_L
+      parentName: Head_M
+      position: {x: 0.027244024, y: 0.10484986, z: 0.03423012}
+      rotation: {x: -0.000000017457245, y: -1.3724887e-10, z: -0.70710677, w: 0.7071068}
+      scale: {x: 1.0000035, y: 1.0000062, z: 1.0000036}
+    - name: EyeEnd_L
+      parentName: Eye_L
+      position: {x: -0.017087016, y: -3.410605e-15, z: -1.6431301e-16}
+      rotation: {x: -8.88178e-16, y: -8.951169e-16, z: -2.3959868e-18, w: 1}
+      scale: {x: 1.0000021, y: 1.0000038, z: 1.000002}
+    - name: Cheek_L
+      parentName: Head_M
+      position: {x: 0.06519327, y: 0.09166024, z: 0.065865785}
+      rotation: {x: 4.4287617e-15, y: 3.3439633e-15, z: -1, w: 0.000000029802315}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: LowerNose_L
+      parentName: Head_M
+      position: {x: 0.07170908, y: 0.12503974, z: 0.020640444}
+      rotation: {x: 4.4287617e-15, y: 3.3439633e-15, z: -1, w: 0.000000029802315}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: UpperNose_L
+      parentName: Head_M
+      position: {x: 0.03668772, y: 0.113807015, z: 0.015082455}
+      rotation: {x: 4.4287617e-15, y: 3.3439633e-15, z: -1, w: 0.000000029802315}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: EyebrowInner_L
+      parentName: Head_M
+      position: {x: 0.0017180871, y: 0.13114001, z: 0.019924846}
+      rotation: {x: 4.4287617e-15, y: 3.3439633e-15, z: -1, w: 0.000000029802315}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: EyebrowMid_L
+      parentName: Head_M
+      position: {x: 0.0019047022, y: 0.11870839, z: 0.038879696}
+      rotation: {x: 4.4287617e-15, y: 3.3439633e-15, z: -1, w: 0.000000029802315}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: EyebrowOuter_L
+      parentName: Head_M
+      position: {x: 0.0021386193, y: 0.103120714, z: 0.06264672}
+      rotation: {x: 4.4287617e-15, y: 3.3439633e-15, z: -1, w: 0.000000029802315}
+      scale: {x: 1.0000018, y: 1.0000019, z: 1.0000021}
+    - name: Jaw_M
+      parentName: Head_M
+      position: {x: 0.09673202, y: 0.03784826, z: -1.24178885e-17}
+      rotation: {x: -0.0000000033637344, y: 7.032363e-10, z: -0.83090204, w: 0.55641884}
+      scale: {x: 1.0000114, y: 1.0000196, z: 1.0000091}
+    - name: JawEnd_M
+      parentName: Jaw_M
+      position: {x: -0.09521113, y: 6.252776e-15, z: -2.4425813e-17}
+      rotation: {x: -2.2204455e-16, y: 2.4980013e-16, z: -0.000000029802315, w: 1}
+      scale: {x: 1.0000025, y: 1.0000044, z: 1.000002}
+    - name: OuterMouth_R
+      parentName: Jaw_M
+      position: {x: -0.0764952, y: -0.029030904, z: -0.032475587}
+      rotation: {x: -2.2204455e-16, y: 2.4980013e-16, z: -0.000000029802315, w: 1}
+      scale: {x: 1.0000025, y: 1.0000044, z: 1.000002}
+    - name: BottomLip_M
+      parentName: Jaw_M
+      position: {x: -0.09364047, y: -0.031114377, z: -6.0830105e-16}
+      rotation: {x: -2.2204455e-16, y: 2.4980013e-16, z: -0.000000029802315, w: 1}
+      scale: {x: 1.0000025, y: 1.0000044, z: 1.000002}
+    - name: OuterMouth_L
+      parentName: Jaw_M
+      position: {x: -0.0764952, y: -0.029030904, z: 0.032475587}
+      rotation: {x: 0.000000016543055, y: -0.0000000019705908, z: 1, w: 0.000000029802315}
+      scale: {x: 1.0000025, y: 1.0000015, z: 1.000002}
+    - name: LowerCheek_R
+      parentName: Jaw_M
+      position: {x: -0.046832543, y: -0.019741269, z: -0.060822643}
+      rotation: {x: -2.2204455e-16, y: 2.4980013e-16, z: -0.000000029802315, w: 1}
+      scale: {x: 1.000005, y: 1.000009, z: 1.0000042}
+    - name: LowerCheek_L
+      parentName: Jaw_M
+      position: {x: -0.046832543, y: -0.019741269, z: 0.060822643}
+      rotation: {x: 0.000000016543055, y: -0.0000000019705908, z: 1, w: 0.000000029802315}
+      scale: {x: 1.000005, y: 1.0000033, z: 1.0000042}
+    - name: Scapula_L
+      parentName: Chest_M
+      position: {x: -0.0037425128, y: -0.0078088413, z: 0.062583625}
+      rotation: {x: -0.68582547, y: 0.17237674, z: -0.70495933, w: 0.054425586}
+      scale: {x: 0.9999963, y: 0.99999535, z: 0.9999929}
+    - name: Shoulder_L
+      parentName: Scapula_L
+      position: {x: 0.104209974, y: -8.881784e-18, z: -5.684342e-16}
+      rotation: {x: -0.055574264, y: 0.011328779, z: 0.20127468, w: -0.97789145}
+      scale: {x: 1.0000024, y: 1.0000079, z: 1.0000031}
+    - name: Elbow_L
+      parentName: Shoulder_L
+      position: {x: 0.29240897, y: -4.6615153e-13, z: 4.376943e-14}
+      rotation: {x: 0.00048336363, y: 0.0037162108, z: 0.00605832, w: 0.9999746}
+      scale: {x: 1.0000086, y: 1.0000067, z: 1.0000033}
+    - name: Hand_Container_L
+      parentName: Elbow_L
+      position: {x: 0.2893168, y: 7.1663575e-10, z: -0.000000024310534}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wrist_L
+      parentName: Elbow_L
+      position: {x: 0.28931677, y: -4.6057824e-13, z: 3.6664004e-14}
+      rotation: {x: -0.042533007, y: -0.0811956, z: 0.01685992, w: 0.99564755}
+      scale: {x: 1.0000153, y: 1.0000086, z: 1.0000063}
+    - name: MiddleFinger1_L
+      parentName: Wrist_L
+      position: {x: 0.11278203, y: 0, z: 0}
+      rotation: {x: 0.003307196, y: -0.03463297, z: 0.061490703, w: 0.99750113}
+      scale: {x: 1.0000008, y: 0.999997, z: 1.0000011}
+    - name: MiddleFinger2_L
+      parentName: MiddleFinger1_L
+      position: {x: 0.04418132, y: -1.3322676e-17, z: 0}
+      rotation: {x: -0.000041051982, y: -0.03777966, z: 0.0025464082, w: 0.99928284}
+      scale: {x: 1.0000073, y: 1.0000017, z: 0.9999931}
+    - name: MiddleFinger3_L
+      parentName: MiddleFinger2_L
+      position: {x: 0.04433157, y: 5.4527996e-15, z: -4.263256e-15}
+      rotation: {x: -0, y: -0, z: 7.185007e-11, w: 1}
+      scale: {x: 1.0000081, y: 1.0000045, z: 1.0000054}
+    - name: ThumbFinger1_L
+      parentName: Wrist_L
+      position: {x: 0.06696085, y: -0.032880183, z: 0.006129249}
+      rotation: {x: 0.4531623, y: -0.10141724, z: 0.35254315, w: -0.81244814}
+      scale: {x: 1.0000051, y: 0.99999154, z: 1.0000048}
+    - name: ThumbFinger2_L
+      parentName: ThumbFinger1_L
+      position: {x: 0.03559904, y: 0, z: 0}
+      rotation: {x: 0.03806072, y: -0.020535996, z: 0.023052033, w: 0.99879843}
+      scale: {x: 0.99998385, y: 1.0000241, z: 0.9999972}
+    - name: ThumbFinger3_L
+      parentName: ThumbFinger2_L
+      position: {x: 0.039265227, y: -2.2737367e-15, z: -3.5527135e-16}
+      rotation: {x: -0.0000000037252885, y: -0, z: -0.000000007916238, w: 1}
+      scale: {x: 1.0000037, y: 1.0000017, z: 1.0000024}
+    - name: IndexFinger1_L
+      parentName: Wrist_L
+      position: {x: 0.103645496, y: -0.02030841, z: 0.0022623113}
+      rotation: {x: 0.026169702, y: 0.053468198, z: 0.03013524, w: -0.9977716}
+      scale: {x: 0.9999971, y: 0.99999774, z: 0.9999986}
+    - name: IndexFinger2_L
+      parentName: IndexFinger1_L
+      position: {x: 0.04966167, y: 3.5527136e-17, z: 2.842171e-16}
+      rotation: {x: -0.010374249, y: -0.030746851, z: 0.025918664, w: 0.9991372}
+      scale: {x: 1.00001, y: 1.0000032, z: 1}
+    - name: IndexFinger3_L
+      parentName: IndexFinger2_L
+      position: {x: 0.04207957, y: -1.7763567e-16, z: -8.5265126e-16}
+      rotation: {x: 9.3132246e-10, y: 0.0000000037252899, z: -0.000000008323695, w: 1}
+      scale: {x: 1.0000058, y: 1.0000026, z: 1.0000032}
+    - name: RingFinger1_L
+      parentName: Wrist_L
+      position: {x: 0.101038806, y: 0.023444807, z: -0.0015910169}
+      rotation: {x: 0.015735606, y: -0.029317256, z: 0.07533595, w: 0.99660295}
+      scale: {x: 1.0000002, y: 0.99999905, z: 0.9999995}
+    - name: RingFinger2_L
+      parentName: RingFinger1_L
+      position: {x: 0.04753537, y: 8.881784e-18, z: 0}
+      rotation: {x: -0.0023739864, y: -0.03862702, z: 0.0015628126, w: 0.9992497}
+      scale: {x: 1.000012, y: 1.0000001, z: 0.99999714}
+    - name: RingFinger3_L
+      parentName: RingFinger2_L
+      position: {x: 0.042304706, y: 2.6645352e-17, z: -3.694822e-15}
+      rotation: {x: -0, y: -0, z: -7.275956e-11, w: 1}
+      scale: {x: 1.0000035, y: 0.9999998, z: 1.0000017}
+    - name: PinkyFinger1_L
+      parentName: Wrist_L
+      position: {x: 0.0889727, y: 0.03919939, z: -0.0030241408}
+      rotation: {x: 0.035278924, y: -0.027696604, z: 0.07071317, w: 0.99648786}
+      scale: {x: 1.0000069, y: 0.9999987, z: 1.0000007}
+    - name: PinkyFinger2_L
+      parentName: PinkyFinger1_L
+      position: {x: 0.04922278, y: -7.105427e-17, z: -2.842171e-16}
+      rotation: {x: 0.010382604, y: -0.02217714, z: -0.03380992, w: 0.9991283}
+      scale: {x: 1.0000036, y: 1.0000031, z: 0.9999959}
+    - name: PinkyFinger3_L
+      parentName: PinkyFinger2_L
+      position: {x: 0.037715204, y: 2.842171e-16, z: 1.7053025e-15}
+      rotation: {x: -9.3132235e-10, y: -0, z: 0.0000000011350492, w: 1}
+      scale: {x: 1.0000079, y: 1.0000032, z: 1.0000042}
+    - name: Geometry
+      parentName: Rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Soldier_US
+      parentName: Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Soldier_GE
+      parentName: Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Soldier_GB
+      parentName: Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Special_GE
+      parentName: Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Soldier_US_FPS
+      parentName: Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Soldier_GE_FPS
+      parentName: Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Soldier_GB_FPS
+      parentName: Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Special_GE_FPS
+      parentName: Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

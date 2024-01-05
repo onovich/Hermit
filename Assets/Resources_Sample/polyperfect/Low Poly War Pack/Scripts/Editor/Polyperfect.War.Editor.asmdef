@@ -1,0 +1,20 @@
+{
+    "name": "Polyperfect.War.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Polyperfect.War",
+        "Polyperfect.Common.Editor",
+        "Polyperfect.Common"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

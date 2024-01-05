@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &311888341461756541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2221477481191046939}
+  m_Layer: 0
+  m_Name: ParachutePosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2221477481191046939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311888341461756541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8.23, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8154960649134653077}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &8804014974836135595
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7061211947761592387}
+  serializedVersion: 2
+  m_Mass: 80
+  m_Drag: 0.5
+  m_AngularDrag: 0.5
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &7005343345173669524
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7061211947761592387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9121284032294557288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7061211947761592387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4fa2fbb7a0769244bf1b2daf6d569a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Wing: {fileID: 2221477481191046939}
+  NormalDrag: 50
+  TangentDrag: 5
+  GroundDistanceCheck: 5
+  OnGroundInRange:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6820673426440233851}
+        m_TargetAssemblyTypeName: PolyPerfect.War.Rider_Carrier, Assembly-CSharp
+        m_MethodName: EjectAll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4312646350600944154}
+        m_TargetAssemblyTypeName: Polyperfect.Common.Destroyer, Polyperfect.Common
+        m_MethodName: DestroyThis
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1001 &1640415715911763404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 518186280625905228, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: distance
+      value: 7.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318150036568328405, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216306633495881399, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: DisableRenderers
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216306633495881399, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: OnRiderExit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216306633495881399, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: OnRiderExit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216306633495881399, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: OnRiderExit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216306633495881399, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: OnRiderExit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216306633495881399, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: OnRiderExit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DestroyThis
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216306633495881399, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: OnRiderExit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PolyPerfect.War.Destroyer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216306633495881399, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: OnRiderExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6242491541157677582, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8592194896804277647, guid: 324582462b173024ab366ab4437dab02,
+        type: 3}
+      propertyPath: m_Name
+      value: Rideable_Parachute
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 324582462b173024ab366ab4437dab02, type: 3}
+--- !u!1 &7061211947761592387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8592194896804277647, guid: 324582462b173024ab366ab4437dab02,
+    type: 3}
+  m_PrefabInstance: {fileID: 1640415715911763404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8154960649134653077 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7489434391972035417, guid: 324582462b173024ab366ab4437dab02,
+    type: 3}
+  m_PrefabInstance: {fileID: 1640415715911763404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6820673426440233851 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5216306633495881399, guid: 324582462b173024ab366ab4437dab02,
+    type: 3}
+  m_PrefabInstance: {fileID: 1640415715911763404}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7061211947761592387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9dad82b3614ff59c7a30d32b724475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4312646350600944154 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3250038068301250518, guid: 324582462b173024ab366ab4437dab02,
+    type: 3}
+  m_PrefabInstance: {fileID: 1640415715911763404}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7061211947761592387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7134b3827befa4a479a9fbcbe1ca4bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
