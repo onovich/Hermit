@@ -94,7 +94,7 @@ MonoBehaviour:
     showTerrainMask: 0
   wizardTools:
     lightingModel: 0
-    texturingModel: 0
+    texturingModel: 3
     splatsModel: 1
     origin: {x: 0, y: 0, z: 0}
     tileSize: {x: 500, y: 500, z: 500}
