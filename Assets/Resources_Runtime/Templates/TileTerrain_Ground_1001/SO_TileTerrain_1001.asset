@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d610b7ab7bf300b46a52f68d10324ad2, type: 3}
+  m_Name: SO_TileTerrain_1001
+  m_EditorClassIdentifier: 
+  tm:
+    typeID: 1001
+    mesh: {fileID: 4300000, guid: 578df7e31c7e73a4aaae898a71aa7342, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 3af245791d2433a4194f5f796c2ec007, type: 2}
+    - {fileID: 2100000, guid: 6288cf713dc20bf49b06c400f0b077f8, type: 2}

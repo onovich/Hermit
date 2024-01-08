@@ -26,15 +26,15 @@ namespace Hermit {
         }
 
         public GameObject Entity_GetRole() {
-            return Entity_Get("Role");
+            return Entity_Get("GO_Role");
         }
 
         public GameObject Entity_GetVehicle() {
-            return Entity_Get("Vehicle");
+            return Entity_Get("GO_Vehicle");
         }
 
         public GameObject Entity_GetBullet() {
-            return Entity_Get("Bullet");
+            return Entity_Get("GO_Bullet");
         }
 
     }

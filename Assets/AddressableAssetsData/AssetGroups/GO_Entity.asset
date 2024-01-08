@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GO_Entity
+  m_EditorClassIdentifier: 
+  m_GroupName: GO_Entity
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c1c6e482d4dd8764880b8c11f5dba481
+  m_SerializeEntries:
+  - m_GUID: 6b51f4a9aacc51145bd091c7609b4254
+    m_Address: GO_Role
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GO_Entity
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9a7075b8970978c4f8eec2cadedac32e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7ceed3864f831444ab534c4f46c2eb5c, type: 2}
+    - {fileID: 11400000, guid: 59919174cdb8a4244ab151dfbd0be6c0, type: 2}

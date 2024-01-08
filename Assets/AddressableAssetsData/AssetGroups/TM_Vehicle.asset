@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TM_Vehicle
+  m_EditorClassIdentifier: 
+  m_GroupName: TM_Vehicle
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d9e3d17a36748834f8b5432a6b0be435
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9a7075b8970978c4f8eec2cadedac32e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f7772c8061dbe414a9245648d24ac3af, type: 2}
+    - {fileID: 11400000, guid: 07977e5bfa61ed0409f27c5ef91f2256, type: 2}
